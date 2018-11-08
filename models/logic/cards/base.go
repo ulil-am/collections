@@ -6,5 +6,6 @@ import (
 
 var (
 	// DBCards ...
+	logicName = "@Cards"
 	DBCards iCards.ICards
 )

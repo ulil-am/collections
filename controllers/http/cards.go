@@ -18,6 +18,21 @@ type CardsController struct {
 // URLMapping ...
 func (c *CardsController) URLMapping() {
 	c.Mapping("Post", c.Post)
+	c.Mapping("Get", c.Get)
+}
+
+func (c *CardsController) Get() {
+	errCode := make([]structs.TypeError, 0)
+
+	var (
+		req structAPI.ReqInquiryCards
+		res structAPI.ResInquiryCards
+	)
+
+	req.CardNumber = c.Ctx.Request.URL.Query()["card_number"]
+	res = logicCards.GetCardInfo(req, &errCode)
+
+	SendOutput(c.Ctx, res, errCode)
 }
 
 // Post ...

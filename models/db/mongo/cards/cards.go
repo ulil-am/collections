@@ -4,9 +4,11 @@ import (
 	"collections/helper/constant"
 	"collections/helper/constant/tablename"
 	db "collections/models/db/mongo"
+	structDb "collections/structs/db"
 
 	"github.com/astaxie/beego"
 	"github.com/globalsign/mgo"
+	"github.com/globalsign/mgo/bson"
 )
 
 // Cards ...
@@ -32,7 +34,7 @@ func (d *Cards) GetColl() (sess *mgo.Session, coll *mgo.Collection, err error) {
 
 // Index ...
 func (d *Cards) Index() (err error) {
-	sess, coll, err := d.GetColl()
+	sess, coll, err := db.GetColl(tablename.Cards)
 	defer sess.Close()
 	if err != nil {
 		return
@@ -52,12 +54,24 @@ func (d *Cards) Index() (err error) {
 
 // InsertCards ...
 func (d *Cards) InsertCards(v interface{}) (err error) {
-	sess, coll, err := d.GetColl()
+	sess, coll, err := db.GetColl(tablename.Cards)
 	defer sess.Close()
 	if err != nil {
 		return
 	}
 
 	err = coll.Insert(v)
+	return
+}
+
+// GetCardByCardNumber ...
+func (d *Cards) GetCardByCardNumber(cardNumber string) (rows []structDb.Cards, err error) {
+	sess, coll, err := db.GetColl(tablename.Cards)
+	defer sess.Close()
+	if err != nil {
+		return
+	}
+	err = coll.Find(bson.M{"card_number": bson.M{"$in": cardNumber}}).All(&rows)
+
 	return
 }

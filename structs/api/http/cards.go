@@ -7,6 +7,17 @@ import (
 )
 
 type (
+
+	// ReqInquiryCards ...
+	ReqInquiryCards struct {
+		CardNumber string `json:"card_number" example:"123456789012345"`
+	}
+
+	// ResInquiryCards ...
+	ResInquiryCards struct {
+		Cards []Cards `json:"cards"`
+	}
+
 	//ReqCreateCards Struct for insert new card request
 	ReqCreateCards struct {
 		CardNumber int    `json:"card_number"`
