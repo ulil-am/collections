@@ -1,0 +1,81 @@
+# Specify linter to be executed (in array)
+linter:
+  - aligncheck
+  - deadcode
+  - dupl
+  - errcheck
+  - gas
+  - goconst
+  - gocyclo
+  # - goimports
+  # - gotype
+  - golint
+  - gosimple
+  - ineffassign
+  - interfacer
+  - misspell
+  - safesql
+  - staticcheck
+  - structcheck
+  - unconvert
+  - unparam
+  - unused
+  - varcheck
+
+# exec format (in array) :
+  # [
+  #   {
+  #     "excludelinter":["what linter to be exclude for each directory"]
+  #     "directory":["what directory to run concurently"]
+  #   },
+  #   {
+  #     "excludelinter":["what linter to be exclude for each directory"]
+  #     "directory":["what directory to run concurently"]
+  #   }
+  # ]
+
+exec :
+  [ 
+    { 
+      "excludelinter":[], 
+      "directory":["controllers/grpc","controllers/http"]
+    },
+    { 
+      "excludelinter":[], 
+      "directory":["helper","helper/timetn"]
+    },
+    { 
+      "excludelinter":[], 
+      "directory":[
+        "models",
+        "models/db",
+        
+        "models/db/interfaces",
+        "models/db/interfaces/genappid",
+        "models/db/interfaces/products",
+
+        "models/db/mongo",
+        "models/db/mongo/products",
+        "models/db/mongo/genappid",
+
+        "models/logic",
+        "models/logic/genappid",
+        "models/logic/products"
+      ]
+    },
+    { 
+      "excludelinter":["dupl"], 
+      "directory":[
+        "structs",
+        "structs/api/grpc",
+        "structs/api/http",
+        "structs/db",
+        "structs/external",
+        "structs/logic"
+      ]
+    },
+    { 
+      "excludelinter":[], 
+      "directory":["thirdparty/mq"]
+    }
+  ]
