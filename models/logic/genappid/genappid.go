@@ -1,12 +1,12 @@
 package genappid
 
 import (
-	"medium/helper"
-	"medium/helper/timetn"
-	"medium/structs"
-	apiStruct "medium/structs/api/http"
-	dbStruct "medium/structs/db"
-	lStruct "medium/structs/logic"
+	"collections/helper"
+	"collections/helper/timetn"
+	"collections/structs"
+	apiStruct "collections/structs/api/http"
+	dbStruct "collections/structs/db"
+	lStruct "collections/structs/logic"
 	"strconv"
 
 	"github.com/astaxie/beego"

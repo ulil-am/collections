@@ -1,4 +1,4 @@
-proj_name=medium
+proj_name=collections
 cd ../..
 export GOPATH=$(pwd)
 cd src/$proj_name/

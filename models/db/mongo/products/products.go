@@ -1,11 +1,11 @@
 package products
 
 import (
-	"medium/helper"
-	"medium/helper/constant"
-	"medium/helper/constant/tablename"
-	db "medium/models/db/mongo"
-	dbStruct "medium/structs/db"
+	"collections/helper"
+	"collections/helper/constant"
+	"collections/helper/constant/tablename"
+	db "collections/models/db/mongo"
+	dbStruct "collections/structs/db"
 
 	"github.com/globalsign/mgo"
 	"github.com/globalsign/mgo/bson"

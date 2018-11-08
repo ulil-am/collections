@@ -1,7 +1,7 @@
 package genappid
 
 import (
-	"medium/helper/constant"
+	"collections/helper/constant"
 )
 
 func init() {

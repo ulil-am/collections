@@ -1,8 +1,8 @@
 package genappid
 
 import (
-	"medium/helper/constant/tablename"
-	dbStruct "medium/structs/db"
+	"collections/helper/constant/tablename"
+	dbStruct "collections/structs/db"
 )
 
 // Genappid - Logic Struct DB

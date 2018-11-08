@@ -1,11 +1,11 @@
 package http
 
 import (
-	ctrl "medium/controllers/http"
-	"medium/helper"
-	"medium/helper/constant"
-	"medium/helper/timetn"
-	"medium/structs"
+	ctrl "collections/controllers/http"
+	"collections/helper"
+	"collections/helper/constant"
+	"collections/helper/timetn"
+	"collections/structs"
 	"encoding/json"
 	"log"
 	"net/http"

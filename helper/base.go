@@ -1,7 +1,7 @@
 package helper
 
 import (
-	"medium/helper/constant"
+	"collections/helper/constant"
 	"errors"
 
 	"github.com/astaxie/beego"

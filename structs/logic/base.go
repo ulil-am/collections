@@ -1,8 +1,8 @@
 package logic
 
 import (
-	"medium/structs"
-	apiStructs "medium/structs/api"
+	"collections/structs"
+	apiStructs "collections/structs/api"
 )
 
 type (

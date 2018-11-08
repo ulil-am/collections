@@ -1,9 +1,9 @@
 package genappid
 
 import (
-	"medium/structs"
-	apiStruct "medium/structs/api/http"
-	lStruct "medium/structs/logic"
+	"collections/structs"
+	apiStruct "collections/structs/api/http"
+	lStruct "collections/structs/logic"
 	"testing"
 
 	. "github.com/smartystreets/goconvey/convey"

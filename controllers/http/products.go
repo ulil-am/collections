@@ -1,10 +1,10 @@
 package http
 
 import (
-	"medium/helper"
-	logicProduct "medium/models/logic/products"
-	"medium/structs"
-	structsAPI "medium/structs/api/http"
+	"collections/helper"
+	logicProduct "collections/models/logic/products"
+	"collections/structs"
+	structsAPI "collections/structs/api/http"
 	"encoding/json"
 )
 

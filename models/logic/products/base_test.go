@@ -1,7 +1,7 @@
 package products
 
 import (
-	"medium/helper/constant"
+	"collections/helper/constant"
 )
 
 func init() {

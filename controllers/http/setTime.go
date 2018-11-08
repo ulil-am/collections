@@ -1,8 +1,8 @@
 package http
 
 import (
-	"medium/helper"
-	"medium/helper/timetn"
+	"collections/helper"
+	"collections/helper/timetn"
 	"encoding/json"
 	"strconv"
 	"strings"

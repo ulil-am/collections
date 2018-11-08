@@ -1,8 +1,8 @@
 package mongo
 
 import (
-	"medium/helper"
-	"medium/helper/constant"
+	"collections/helper"
+	"collections/helper/constant"
 
 	"github.com/globalsign/mgo"
 )

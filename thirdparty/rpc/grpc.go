@@ -4,23 +4,23 @@ import (
 	"strconv"
 	"time"
 
-	"medium/helper"
-	"medium/helper/constant"
-	"medium/helper/timetn"
+	"collections/helper"
+	"collections/helper/constant"
+	"collections/helper/timetn"
 
-	middleware "medium/routers/grpc"
+	middleware "collections/routers/grpc"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/grpclog"
 	"google.golang.org/grpc/metadata"
 
-	structsAPI "medium/structs/api"
-	structsRPCAPI "medium/structs/api/grpc"
+	structsAPI "collections/structs/api"
+	structsRPCAPI "collections/structs/api/grpc"
 
 	"context"
 
-	pb "medium/proto"
+	pb "collections/proto"
 )
 
 var (

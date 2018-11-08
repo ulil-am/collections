@@ -2,10 +2,10 @@ package grpc
 
 import (
 	"encoding/json"
-	"medium/helper"
-	pb "medium/proto"
-	"medium/structs"
-	rpcStructs "medium/structs/api/grpc"
+	"collections/helper"
+	pb "collections/proto"
+	"collections/structs"
+	rpcStructs "collections/structs/api/grpc"
 )
 
 // RPCtrlAcquisition - RPCtrlAcquisition Controllers

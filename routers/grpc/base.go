@@ -18,10 +18,10 @@ import (
 	"google.golang.org/grpc/reflection"
 	"google.golang.org/grpc/status"
 
-	"medium/helper"
-	"medium/helper/constant"
-	pb "medium/proto"
-	"medium/structs"
+	"collections/helper"
+	"collections/helper/constant"
+	pb "collections/proto"
+	"collections/structs"
 )
 
 var tls bool = false

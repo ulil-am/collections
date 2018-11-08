@@ -1,8 +1,8 @@
 package mq
 
 import (
-	"medium/helper"
-	"medium/helper/timetn"
+	"collections/helper"
+	"collections/helper/timetn"
 	"os"
 
 	"github.com/astaxie/beego"

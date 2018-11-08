@@ -1,7 +1,7 @@
 package http
 
 import (
-	"medium/structs"
+	"collections/structs"
 
 	"github.com/jannes-sa/customvalidator"
 )

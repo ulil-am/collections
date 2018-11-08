@@ -1,7 +1,7 @@
 package http
 
 import (
-	ctrl "medium/controllers/http"
+	ctrl "collections/controllers/http"
 
 	"github.com/astaxie/beego"
 )
@@ -15,7 +15,7 @@ func Router() {
 	beego.InsertFilter("/*", beego.BeforeRouter, BeforeFunc, true)
 	beego.ErrorHandler("404", pageNotFound)
 
-	ns := beego.NewNamespace("/acquisition/v1",
+	ns := beego.NewNamespace("/collections/v1",
 		/*:STARTHTTP*/
 
 		beego.NSRouter("/set_time",
@@ -33,6 +33,11 @@ func Router() {
 		beego.NSNamespace("/products",
 			beego.NSInclude(
 				&ctrl.ProductsController{},
+			),
+		),
+		beego.NSNamespace("/cards",
+			beego.NSInclude(
+				&ctrl.CardsController{},
 			),
 		),
 		/*:ENDHTTP*/

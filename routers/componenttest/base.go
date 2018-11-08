@@ -1,10 +1,10 @@
 package componenttest
 
 import (
-	"bytes" // db "medium/models/db/pgsql"
-	ctrlRPC "medium/routers/grpc"
-	routerHTTP "medium/routers/http"
-	"medium/structs"
+	"bytes" // db "collections/models/db/pgsql"
+	ctrlRPC "collections/routers/grpc"
+	routerHTTP "collections/routers/http"
+	"collections/structs"
 	"encoding/json"
 	"net/http"
 	"net/http/httptest"

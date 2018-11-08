@@ -1,11 +1,11 @@
 package main
 
 import (
-	"medium/helper/constant"
-	"medium/helper/timetn"
-	"medium/routers/grpc"
-	_ "medium/routers/http"
-	_ "medium/structs/db"
+	"collections/helper/constant"
+	"collections/helper/timetn"
+	"collections/routers/grpc"
+	_ "collections/routers/http"
+	_ "collections/structs/db"
 	"os"
 	"strconv"
 	"time"

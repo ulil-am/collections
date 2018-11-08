@@ -1,7 +1,7 @@
 package products
 
 import (
-	dbStruct "medium/structs/db"
+	dbStruct "collections/structs/db"
 )
 
 // IProducts - Products Logic Interface

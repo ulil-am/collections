@@ -1,14 +1,14 @@
 mode: set
-medium/models/logic/products/base.go:16.13,17.38 1 1
-medium/models/logic/products/base.go:17.38,19.3 1 1
-medium/models/logic/products/base.go:19.8,21.3 1 0
-medium/models/logic/products/products.go:12.76,14.16 2 1
-medium/models/logic/products/products.go:18.2,18.8 1 1
-medium/models/logic/products/products.go:14.16,16.3 1 0
-medium/models/logic/products/products.go:23.54,29.16 3 1
-medium/models/logic/products/products.go:33.2,33.27 1 1
-medium/models/logic/products/products.go:45.2,45.8 1 1
-medium/models/logic/products/products.go:29.16,31.3 1 1
-medium/models/logic/products/products.go:33.27,43.3 2 1
-medium/models/logic/products/products.go:53.3,67.16 9 1
-medium/models/logic/products/products.go:67.16,72.3 3 1
+collections/models/logic/products/base.go:16.13,17.38 1 1
+collections/models/logic/products/base.go:17.38,19.3 1 1
+collections/models/logic/products/base.go:19.8,21.3 1 0
+collections/models/logic/products/products.go:12.76,14.16 2 1
+collections/models/logic/products/products.go:18.2,18.8 1 1
+collections/models/logic/products/products.go:14.16,16.3 1 0
+collections/models/logic/products/products.go:23.54,29.16 3 1
+collections/models/logic/products/products.go:33.2,33.27 1 1
+collections/models/logic/products/products.go:45.2,45.8 1 1
+collections/models/logic/products/products.go:29.16,31.3 1 1
+collections/models/logic/products/products.go:33.27,43.3 2 1
+collections/models/logic/products/products.go:53.3,67.16 9 1
+collections/models/logic/products/products.go:67.16,72.3 3 1

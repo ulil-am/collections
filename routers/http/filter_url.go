@@ -1,8 +1,8 @@
 package http
 
 import (
-	ctrl "medium/controllers/http"
-	"medium/structs"
+	ctrl "collections/controllers/http"
+	"collections/structs"
 
 	"github.com/astaxie/beego/context"
 )

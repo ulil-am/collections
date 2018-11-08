@@ -1,236 +1,236 @@
-{"Time":"2018-10-17T13:24:35.235947408+07:00","Action":"run","Package":"medium/models/logic/svclog","Test":"TestInsertServiceLog"}
-{"Time":"2018-10-17T13:24:35.236089008+07:00","Action":"output","Package":"medium/models/logic/svclog","Test":"TestInsertServiceLog","Output":"=== RUN   TestInsertServiceLog\n"}
-{"Time":"2018-10-17T13:24:35.236101367+07:00","Action":"output","Package":"medium/models/logic/svclog","Test":"TestInsertServiceLog","Output":"\n"}
-{"Time":"2018-10-17T13:24:35.236106792+07:00","Action":"output","Package":"medium/models/logic/svclog","Test":"TestInsertServiceLog","Output":"  TestInsertServiceLog \n"}
-{"Time":"2018-10-17T13:24:35.236110873+07:00","Action":"output","Package":"medium/models/logic/svclog","Test":"TestInsertServiceLog","Output":"    Should Success \u001b[32m✔\u001b[0m\n"}
-{"Time":"2018-10-17T13:24:35.236116506+07:00","Action":"output","Package":"medium/models/logic/svclog","Test":"TestInsertServiceLog","Output":"\n"}
-{"Time":"2018-10-17T13:24:35.236120454+07:00","Action":"output","Package":"medium/models/logic/svclog","Test":"TestInsertServiceLog","Output":"\u001b[31m\u001b[0m\u001b[33m\u001b[0m\u001b[32m\n"}
-{"Time":"2018-10-17T13:24:35.236124523+07:00","Action":"output","Package":"medium/models/logic/svclog","Test":"TestInsertServiceLog","Output":"1 total assertion\u001b[0m\n"}
-{"Time":"2018-10-17T13:24:35.236128851+07:00","Action":"output","Package":"medium/models/logic/svclog","Test":"TestInsertServiceLog","Output":"\n"}
-{"Time":"2018-10-17T13:24:35.236135424+07:00","Action":"output","Package":"medium/models/logic/svclog","Test":"TestInsertServiceLog","Output":"--- PASS: TestInsertServiceLog (0.00s)\n"}
-{"Time":"2018-10-17T13:24:35.236140002+07:00","Action":"pass","Package":"medium/models/logic/svclog","Test":"TestInsertServiceLog","Elapsed":0}
-{"Time":"2018-10-17T13:24:35.236145579+07:00","Action":"run","Package":"medium/models/logic/svclog","Test":"TestGetAllServiceLog"}
-{"Time":"2018-10-17T13:24:35.236149151+07:00","Action":"output","Package":"medium/models/logic/svclog","Test":"TestGetAllServiceLog","Output":"=== RUN   TestGetAllServiceLog\n"}
-{"Time":"2018-10-17T13:24:35.236154858+07:00","Action":"output","Package":"medium/models/logic/svclog","Test":"TestGetAllServiceLog","Output":"\n"}
-{"Time":"2018-10-17T13:24:35.236165005+07:00","Action":"output","Package":"medium/models/logic/svclog","Test":"TestGetAllServiceLog","Output":"  TestGetAllServiceLog \n"}
-{"Time":"2018-10-17T13:24:35.236202796+07:00","Action":"output","Package":"medium/models/logic/svclog","Test":"TestGetAllServiceLog","Output":"    Should Success \u001b[32m✔\u001b[0m\u001b[32m✔\u001b[0m\n"}
-{"Time":"2018-10-17T13:24:35.236209425+07:00","Action":"output","Package":"medium/models/logic/svclog","Test":"TestGetAllServiceLog","Output":"\n"}
-{"Time":"2018-10-17T13:24:35.23621492+07:00","Action":"output","Package":"medium/models/logic/svclog","Test":"TestGetAllServiceLog","Output":"\u001b[31m\u001b[0m\u001b[33m\u001b[0m\u001b[32m\n"}
-{"Time":"2018-10-17T13:24:35.236221702+07:00","Action":"output","Package":"medium/models/logic/svclog","Test":"TestGetAllServiceLog","Output":"3 total assertions\u001b[0m\n"}
-{"Time":"2018-10-17T13:24:35.236228805+07:00","Action":"output","Package":"medium/models/logic/svclog","Test":"TestGetAllServiceLog","Output":"\n"}
-{"Time":"2018-10-17T13:24:35.236233989+07:00","Action":"output","Package":"medium/models/logic/svclog","Test":"TestGetAllServiceLog","Output":"--- PASS: TestGetAllServiceLog (0.00s)\n"}
-{"Time":"2018-10-17T13:24:35.236240313+07:00","Action":"pass","Package":"medium/models/logic/svclog","Test":"TestGetAllServiceLog","Elapsed":0}
-{"Time":"2018-10-17T13:24:35.236244391+07:00","Action":"run","Package":"medium/models/logic/svclog","Test":"TestGetOneByJobIDServiceLog"}
-{"Time":"2018-10-17T13:24:35.236248215+07:00","Action":"output","Package":"medium/models/logic/svclog","Test":"TestGetOneByJobIDServiceLog","Output":"=== RUN   TestGetOneByJobIDServiceLog\n"}
-{"Time":"2018-10-17T13:24:35.236271222+07:00","Action":"output","Package":"medium/models/logic/svclog","Test":"TestGetOneByJobIDServiceLog","Output":"\n"}
-{"Time":"2018-10-17T13:24:35.236305362+07:00","Action":"output","Package":"medium/models/logic/svclog","Test":"TestGetOneByJobIDServiceLog","Output":"  TestGetOneByJobIDServiceLog \n"}
-{"Time":"2018-10-17T13:24:35.23633055+07:00","Action":"output","Package":"medium/models/logic/svclog","Test":"TestGetOneByJobIDServiceLog","Output":"    Should Success \u001b[32m✔\u001b[0m\u001b[32m✔\u001b[0m\n"}
-{"Time":"2018-10-17T13:24:35.236337785+07:00","Action":"output","Package":"medium/models/logic/svclog","Test":"TestGetOneByJobIDServiceLog","Output":"\n"}
-{"Time":"2018-10-17T13:24:35.236343145+07:00","Action":"output","Package":"medium/models/logic/svclog","Test":"TestGetOneByJobIDServiceLog","Output":"\u001b[31m\u001b[0m\u001b[33m\u001b[0m\u001b[32m\n"}
-{"Time":"2018-10-17T13:24:35.236349595+07:00","Action":"output","Package":"medium/models/logic/svclog","Test":"TestGetOneByJobIDServiceLog","Output":"5 total assertions\u001b[0m\n"}
-{"Time":"2018-10-17T13:24:35.236354786+07:00","Action":"output","Package":"medium/models/logic/svclog","Test":"TestGetOneByJobIDServiceLog","Output":"\n"}
-{"Time":"2018-10-17T13:24:35.236359721+07:00","Action":"output","Package":"medium/models/logic/svclog","Test":"TestGetOneByJobIDServiceLog","Output":"--- PASS: TestGetOneByJobIDServiceLog (0.00s)\n"}
-{"Time":"2018-10-17T13:24:35.236365495+07:00","Action":"pass","Package":"medium/models/logic/svclog","Test":"TestGetOneByJobIDServiceLog","Elapsed":0}
-{"Time":"2018-10-17T13:24:35.236369599+07:00","Action":"run","Package":"medium/models/logic/svclog","Test":"TestUpdateByJobIDServiceLog"}
-{"Time":"2018-10-17T13:24:35.236373335+07:00","Action":"output","Package":"medium/models/logic/svclog","Test":"TestUpdateByJobIDServiceLog","Output":"=== RUN   TestUpdateByJobIDServiceLog\n"}
-{"Time":"2018-10-17T13:24:35.236392901+07:00","Action":"output","Package":"medium/models/logic/svclog","Test":"TestUpdateByJobIDServiceLog","Output":"\n"}
-{"Time":"2018-10-17T13:24:35.236425167+07:00","Action":"output","Package":"medium/models/logic/svclog","Test":"TestUpdateByJobIDServiceLog","Output":"  TestUpdateByJobIDServiceLog \n"}
-{"Time":"2018-10-17T13:24:35.236436327+07:00","Action":"output","Package":"medium/models/logic/svclog","Test":"TestUpdateByJobIDServiceLog","Output":"    Should Success \u001b[32m✔\u001b[0m\n"}
-{"Time":"2018-10-17T13:24:35.236440515+07:00","Action":"output","Package":"medium/models/logic/svclog","Test":"TestUpdateByJobIDServiceLog","Output":"\n"}
-{"Time":"2018-10-17T13:24:35.236445361+07:00","Action":"output","Package":"medium/models/logic/svclog","Test":"TestUpdateByJobIDServiceLog","Output":"\u001b[31m\u001b[0m\u001b[33m\u001b[0m\u001b[32m\n"}
-{"Time":"2018-10-17T13:24:35.236450265+07:00","Action":"output","Package":"medium/models/logic/svclog","Test":"TestUpdateByJobIDServiceLog","Output":"6 total assertions\u001b[0m\n"}
-{"Time":"2018-10-17T13:24:35.236456914+07:00","Action":"output","Package":"medium/models/logic/svclog","Test":"TestUpdateByJobIDServiceLog","Output":"\n"}
-{"Time":"2018-10-17T13:24:35.23646516+07:00","Action":"output","Package":"medium/models/logic/svclog","Test":"TestUpdateByJobIDServiceLog","Output":"--- PASS: TestUpdateByJobIDServiceLog (0.00s)\n"}
-{"Time":"2018-10-17T13:24:35.236470186+07:00","Action":"pass","Package":"medium/models/logic/svclog","Test":"TestUpdateByJobIDServiceLog","Elapsed":0}
-{"Time":"2018-10-17T13:24:35.236474558+07:00","Action":"run","Package":"medium/models/logic/svclog","Test":"TestDeleteByJobIDServiceLog"}
-{"Time":"2018-10-17T13:24:35.236478147+07:00","Action":"output","Package":"medium/models/logic/svclog","Test":"TestDeleteByJobIDServiceLog","Output":"=== RUN   TestDeleteByJobIDServiceLog\n"}
-{"Time":"2018-10-17T13:24:35.236500125+07:00","Action":"output","Package":"medium/models/logic/svclog","Test":"TestDeleteByJobIDServiceLog","Output":"\n"}
-{"Time":"2018-10-17T13:24:35.236528471+07:00","Action":"output","Package":"medium/models/logic/svclog","Test":"TestDeleteByJobIDServiceLog","Output":"  TestDeleteByJobIDServiceLog \n"}
-{"Time":"2018-10-17T13:24:35.236545695+07:00","Action":"output","Package":"medium/models/logic/svclog","Test":"TestDeleteByJobIDServiceLog","Output":"    Should Success \u001b[32m✔\u001b[0m\n"}
-{"Time":"2018-10-17T13:24:35.236550864+07:00","Action":"output","Package":"medium/models/logic/svclog","Test":"TestDeleteByJobIDServiceLog","Output":"\n"}
-{"Time":"2018-10-17T13:24:35.236556079+07:00","Action":"output","Package":"medium/models/logic/svclog","Test":"TestDeleteByJobIDServiceLog","Output":"\u001b[31m\u001b[0m\u001b[33m\u001b[0m\u001b[32m\n"}
-{"Time":"2018-10-17T13:24:35.236561429+07:00","Action":"output","Package":"medium/models/logic/svclog","Test":"TestDeleteByJobIDServiceLog","Output":"7 total assertions\u001b[0m\n"}
-{"Time":"2018-10-17T13:24:35.236566395+07:00","Action":"output","Package":"medium/models/logic/svclog","Test":"TestDeleteByJobIDServiceLog","Output":"\n"}
-{"Time":"2018-10-17T13:24:35.236573473+07:00","Action":"output","Package":"medium/models/logic/svclog","Test":"TestDeleteByJobIDServiceLog","Output":"--- PASS: TestDeleteByJobIDServiceLog (0.00s)\n"}
-{"Time":"2018-10-17T13:24:35.236579109+07:00","Action":"pass","Package":"medium/models/logic/svclog","Test":"TestDeleteByJobIDServiceLog","Elapsed":0}
-{"Time":"2018-10-17T13:24:35.236584405+07:00","Action":"output","Package":"medium/models/logic/svclog","Output":"PASS\n"}
-{"Time":"2018-10-17T13:24:35.237634871+07:00","Action":"output","Package":"medium/models/logic/svclog","Output":"ok  \tmedium/models/logic/svclog\t0.008s\n"}
-{"Time":"2018-10-17T13:24:35.237920427+07:00","Action":"pass","Package":"medium/models/logic/svclog","Elapsed":0.008}
-{"Time":"2018-10-19T11:03:15.815688325+07:00","Action":"run","Package":"medium/models/logic/products","Test":"TestInsertProduct_Success"}
-{"Time":"2018-10-19T11:03:15.81580618+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestInsertProduct_Success","Output":"=== RUN   TestInsertProduct_Success\n"}
-{"Time":"2018-10-19T11:03:15.815818287+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestInsertProduct_Success","Output":"\n"}
-{"Time":"2018-10-19T11:03:15.815824809+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestInsertProduct_Success","Output":"  TestInsertProduct_Success \n"}
-{"Time":"2018-10-19T11:03:15.815831928+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestInsertProduct_Success","Output":"    Should Success \u001b[32m✔\u001b[0m\n"}
-{"Time":"2018-10-19T11:03:15.815838575+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestInsertProduct_Success","Output":"\n"}
-{"Time":"2018-10-19T11:03:15.815845863+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestInsertProduct_Success","Output":"\u001b[31m\u001b[0m\u001b[33m\u001b[0m\u001b[32m\n"}
-{"Time":"2018-10-19T11:03:15.815851235+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestInsertProduct_Success","Output":"1 total assertion\u001b[0m\n"}
-{"Time":"2018-10-19T11:03:15.815855829+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestInsertProduct_Success","Output":"\n"}
-{"Time":"2018-10-19T11:03:15.815862312+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestInsertProduct_Success","Output":"--- PASS: TestInsertProduct_Success (0.00s)\n"}
-{"Time":"2018-10-19T11:03:15.81586933+07:00","Action":"pass","Package":"medium/models/logic/products","Test":"TestInsertProduct_Success","Elapsed":0}
-{"Time":"2018-10-19T11:03:15.81588001+07:00","Action":"run","Package":"medium/models/logic/products","Test":"TestInsertProduct_Error"}
-{"Time":"2018-10-19T11:03:15.815884586+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestInsertProduct_Error","Output":"=== RUN   TestInsertProduct_Error\n"}
-{"Time":"2018-10-19T11:03:15.815934895+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestInsertProduct_Error","Output":"2018/10/19 11:03:15.815 \u001b[1;33m[W]  InsertProduct @products fail to get product \u001b[0m\n"}
-{"Time":"2018-10-19T11:03:15.815990047+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestInsertProduct_Error","Output":"\n"}
-{"Time":"2018-10-19T11:03:15.81602039+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestInsertProduct_Error","Output":"  TestInsertProduct_Error \n"}
-{"Time":"2018-10-19T11:03:15.816040452+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestInsertProduct_Error","Output":"    Should Success \u001b[32m✔\u001b[0m\n"}
-{"Time":"2018-10-19T11:03:15.816050864+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestInsertProduct_Error","Output":"\n"}
-{"Time":"2018-10-19T11:03:15.816059593+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestInsertProduct_Error","Output":"\u001b[31m\u001b[0m\u001b[33m\u001b[0m\u001b[32m\n"}
-{"Time":"2018-10-19T11:03:15.81606752+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestInsertProduct_Error","Output":"2 total assertions\u001b[0m\n"}
-{"Time":"2018-10-19T11:03:15.816074445+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestInsertProduct_Error","Output":"\n"}
-{"Time":"2018-10-19T11:03:15.816083254+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestInsertProduct_Error","Output":"--- PASS: TestInsertProduct_Error (0.00s)\n"}
-{"Time":"2018-10-19T11:03:15.816094457+07:00","Action":"pass","Package":"medium/models/logic/products","Test":"TestInsertProduct_Error","Elapsed":0}
-{"Time":"2018-10-19T11:03:15.816101954+07:00","Action":"run","Package":"medium/models/logic/products","Test":"TestGetAllProduct_Success"}
-{"Time":"2018-10-19T11:03:15.816108377+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetAllProduct_Success","Output":"=== RUN   TestGetAllProduct_Success\n"}
-{"Time":"2018-10-19T11:03:15.816141207+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetAllProduct_Success","Output":"\n"}
-{"Time":"2018-10-19T11:03:15.816172561+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetAllProduct_Success","Output":"  TestGetAllProduct_Success \n"}
-{"Time":"2018-10-19T11:03:15.816215763+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetAllProduct_Success","Output":"    Should Success \u001b[32m✔\u001b[0m\u001b[32m✔\u001b[0m\n"}
-{"Time":"2018-10-19T11:03:15.816226242+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetAllProduct_Success","Output":"\n"}
-{"Time":"2018-10-19T11:03:15.816234498+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetAllProduct_Success","Output":"\u001b[31m\u001b[0m\u001b[33m\u001b[0m\u001b[32m\n"}
-{"Time":"2018-10-19T11:03:15.81624189+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetAllProduct_Success","Output":"4 total assertions\u001b[0m\n"}
-{"Time":"2018-10-19T11:03:15.816249532+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetAllProduct_Success","Output":"\n"}
-{"Time":"2018-10-19T11:03:15.816257992+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetAllProduct_Success","Output":"--- PASS: TestGetAllProduct_Success (0.00s)\n"}
-{"Time":"2018-10-19T11:03:15.816271729+07:00","Action":"pass","Package":"medium/models/logic/products","Test":"TestGetAllProduct_Success","Elapsed":0}
-{"Time":"2018-10-19T11:03:15.816278631+07:00","Action":"run","Package":"medium/models/logic/products","Test":"TestGetProductList_Success"}
-{"Time":"2018-10-19T11:03:15.816284561+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetProductList_Success","Output":"=== RUN   TestGetProductList_Success\n"}
-{"Time":"2018-10-19T11:03:15.816313402+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetProductList_Success","Output":"\n"}
-{"Time":"2018-10-19T11:03:15.816343974+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetProductList_Success","Output":"  TestGetProductList_Success \n"}
-{"Time":"2018-10-19T11:03:15.816382131+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetProductList_Success","Output":"    Should Success \u001b[32m✔\u001b[0m\u001b[32m✔\u001b[0m\n"}
-{"Time":"2018-10-19T11:03:15.816390858+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetProductList_Success","Output":"\n"}
-{"Time":"2018-10-19T11:03:15.816398934+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetProductList_Success","Output":"\u001b[31m\u001b[0m\u001b[33m\u001b[0m\u001b[32m\n"}
-{"Time":"2018-10-19T11:03:15.816406454+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetProductList_Success","Output":"6 total assertions\u001b[0m\n"}
-{"Time":"2018-10-19T11:03:15.816414034+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetProductList_Success","Output":"\n"}
-{"Time":"2018-10-19T11:03:15.816422305+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetProductList_Success","Output":"--- PASS: TestGetProductList_Success (0.00s)\n"}
-{"Time":"2018-10-19T11:03:15.816431072+07:00","Action":"pass","Package":"medium/models/logic/products","Test":"TestGetProductList_Success","Elapsed":0}
-{"Time":"2018-10-19T11:03:15.816437936+07:00","Action":"run","Package":"medium/models/logic/products","Test":"TestGetProductList_Error"}
-{"Time":"2018-10-19T11:03:15.816443887+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetProductList_Error","Output":"=== RUN   TestGetProductList_Error\n"}
-{"Time":"2018-10-19T11:03:15.816476799+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetProductList_Error","Output":"\n"}
-{"Time":"2018-10-19T11:03:15.816506246+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetProductList_Error","Output":"  TestGetProductList_Error \n"}
-{"Time":"2018-10-19T11:03:15.816544833+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetProductList_Error","Output":"    Should Success \u001b[32m✔\u001b[0m\u001b[32m✔\u001b[0m\n"}
-{"Time":"2018-10-19T11:03:15.816553277+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetProductList_Error","Output":"\n"}
-{"Time":"2018-10-19T11:03:15.816560851+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetProductList_Error","Output":"\u001b[31m\u001b[0m\u001b[33m\u001b[0m\u001b[32m\n"}
-{"Time":"2018-10-19T11:03:15.816567809+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetProductList_Error","Output":"8 total assertions\u001b[0m\n"}
-{"Time":"2018-10-19T11:03:15.816573825+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetProductList_Error","Output":"\n"}
-{"Time":"2018-10-19T11:03:15.816581178+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetProductList_Error","Output":"--- PASS: TestGetProductList_Error (0.00s)\n"}
-{"Time":"2018-10-19T11:03:15.816592708+07:00","Action":"pass","Package":"medium/models/logic/products","Test":"TestGetProductList_Error","Elapsed":0}
-{"Time":"2018-10-19T11:03:15.816599839+07:00","Action":"output","Package":"medium/models/logic/products","Output":"PASS\n"}
-{"Time":"2018-10-19T11:03:15.817461006+07:00","Action":"output","Package":"medium/models/logic/products","Output":"ok  \tmedium/models/logic/products\t0.006s\n"}
-{"Time":"2018-10-19T11:03:15.862574878+07:00","Action":"pass","Package":"medium/models/logic/products","Elapsed":0.052}
-{"Time":"2018-10-19T11:32:01.100377954+07:00","Action":"run","Package":"medium/models/logic/products","Test":"TestInsertProduct_Success"}
-{"Time":"2018-10-19T11:32:01.100481469+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestInsertProduct_Success","Output":"=== RUN   TestInsertProduct_Success\n"}
-{"Time":"2018-10-19T11:32:01.100492248+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestInsertProduct_Success","Output":"\n"}
-{"Time":"2018-10-19T11:32:01.100499246+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestInsertProduct_Success","Output":"  TestInsertProduct_Success \n"}
-{"Time":"2018-10-19T11:32:01.100507112+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestInsertProduct_Success","Output":"    Should Success \u001b[32m✔\u001b[0m\n"}
-{"Time":"2018-10-19T11:32:01.100513559+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestInsertProduct_Success","Output":"\n"}
-{"Time":"2018-10-19T11:32:01.100519556+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestInsertProduct_Success","Output":"\u001b[31m\u001b[0m\u001b[33m\u001b[0m\u001b[32m\n"}
-{"Time":"2018-10-19T11:32:01.10052737+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestInsertProduct_Success","Output":"1 total assertion\u001b[0m\n"}
-{"Time":"2018-10-19T11:32:01.100533472+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestInsertProduct_Success","Output":"\n"}
-{"Time":"2018-10-19T11:32:01.100541501+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestInsertProduct_Success","Output":"--- PASS: TestInsertProduct_Success (0.00s)\n"}
-{"Time":"2018-10-19T11:32:01.100548421+07:00","Action":"pass","Package":"medium/models/logic/products","Test":"TestInsertProduct_Success","Elapsed":0}
-{"Time":"2018-10-19T11:32:01.100556228+07:00","Action":"run","Package":"medium/models/logic/products","Test":"TestInsertProduct_Error"}
-{"Time":"2018-10-19T11:32:01.100561781+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestInsertProduct_Error","Output":"=== RUN   TestInsertProduct_Error\n"}
-{"Time":"2018-10-19T11:32:01.100567824+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestInsertProduct_Error","Output":"2018/10/19 11:03:15.815 \u001b[1;33m[W]  InsertProduct @products fail to get product \u001b[0m\n"}
-{"Time":"2018-10-19T11:32:01.100576551+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestInsertProduct_Error","Output":"\n"}
-{"Time":"2018-10-19T11:32:01.100582674+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestInsertProduct_Error","Output":"  TestInsertProduct_Error \n"}
-{"Time":"2018-10-19T11:32:01.100589276+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestInsertProduct_Error","Output":"    Should Success \u001b[32m✔\u001b[0m\n"}
-{"Time":"2018-10-19T11:32:01.100596187+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestInsertProduct_Error","Output":"\n"}
-{"Time":"2018-10-19T11:32:01.100602272+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestInsertProduct_Error","Output":"\u001b[31m\u001b[0m\u001b[33m\u001b[0m\u001b[32m\n"}
-{"Time":"2018-10-19T11:32:01.100617463+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestInsertProduct_Error","Output":"2 total assertions\u001b[0m\n"}
-{"Time":"2018-10-19T11:32:01.100624006+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestInsertProduct_Error","Output":"\n"}
-{"Time":"2018-10-19T11:32:01.100631371+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestInsertProduct_Error","Output":"--- PASS: TestInsertProduct_Error (0.00s)\n"}
-{"Time":"2018-10-19T11:32:01.100638172+07:00","Action":"pass","Package":"medium/models/logic/products","Test":"TestInsertProduct_Error","Elapsed":0}
-{"Time":"2018-10-19T11:32:01.100644925+07:00","Action":"run","Package":"medium/models/logic/products","Test":"TestGetAllProduct_Success"}
-{"Time":"2018-10-19T11:32:01.100651187+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetAllProduct_Success","Output":"=== RUN   TestGetAllProduct_Success\n"}
-{"Time":"2018-10-19T11:32:01.100657554+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetAllProduct_Success","Output":"\n"}
-{"Time":"2018-10-19T11:32:01.100663512+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetAllProduct_Success","Output":"  TestGetAllProduct_Success \n"}
-{"Time":"2018-10-19T11:32:01.100669961+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetAllProduct_Success","Output":"    Should Success \u001b[32m✔\u001b[0m\u001b[32m✔\u001b[0m\n"}
-{"Time":"2018-10-19T11:32:01.100677212+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetAllProduct_Success","Output":"\n"}
-{"Time":"2018-10-19T11:32:01.100683036+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetAllProduct_Success","Output":"\u001b[31m\u001b[0m\u001b[33m\u001b[0m\u001b[32m\n"}
-{"Time":"2018-10-19T11:32:01.10068921+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetAllProduct_Success","Output":"4 total assertions\u001b[0m\n"}
-{"Time":"2018-10-19T11:32:01.100695107+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetAllProduct_Success","Output":"\n"}
-{"Time":"2018-10-19T11:32:01.100702721+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetAllProduct_Success","Output":"--- PASS: TestGetAllProduct_Success (0.00s)\n"}
-{"Time":"2018-10-19T11:32:01.10070977+07:00","Action":"pass","Package":"medium/models/logic/products","Test":"TestGetAllProduct_Success","Elapsed":0}
-{"Time":"2018-10-19T11:32:01.100715802+07:00","Action":"run","Package":"medium/models/logic/products","Test":"TestGetProductList_Success"}
-{"Time":"2018-10-19T11:32:01.100721301+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetProductList_Success","Output":"=== RUN   TestGetProductList_Success\n"}
-{"Time":"2018-10-19T11:32:01.100727667+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetProductList_Success","Output":"\n"}
-{"Time":"2018-10-19T11:32:01.100733676+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetProductList_Success","Output":"  TestGetProductList_Success \n"}
-{"Time":"2018-10-19T11:32:01.100739975+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetProductList_Success","Output":"    Should Success \u001b[32m✔\u001b[0m\u001b[32m✔\u001b[0m\n"}
-{"Time":"2018-10-19T11:32:01.100746474+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetProductList_Success","Output":"\n"}
-{"Time":"2018-10-19T11:32:01.100752365+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetProductList_Success","Output":"\u001b[31m\u001b[0m\u001b[33m\u001b[0m\u001b[32m\n"}
-{"Time":"2018-10-19T11:32:01.100763253+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetProductList_Success","Output":"6 total assertions\u001b[0m\n"}
-{"Time":"2018-10-19T11:32:01.10077068+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetProductList_Success","Output":"\n"}
-{"Time":"2018-10-19T11:32:01.100778503+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetProductList_Success","Output":"--- PASS: TestGetProductList_Success (0.00s)\n"}
-{"Time":"2018-10-19T11:32:01.100785809+07:00","Action":"pass","Package":"medium/models/logic/products","Test":"TestGetProductList_Success","Elapsed":0}
-{"Time":"2018-10-19T11:32:01.100792625+07:00","Action":"run","Package":"medium/models/logic/products","Test":"TestGetProductList_Error"}
-{"Time":"2018-10-19T11:32:01.100798768+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetProductList_Error","Output":"=== RUN   TestGetProductList_Error\n"}
-{"Time":"2018-10-19T11:32:01.100805449+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetProductList_Error","Output":"\n"}
-{"Time":"2018-10-19T11:32:01.100811846+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetProductList_Error","Output":"  TestGetProductList_Error \n"}
-{"Time":"2018-10-19T11:32:01.100819111+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetProductList_Error","Output":"    Should Success \u001b[32m✔\u001b[0m\u001b[32m✔\u001b[0m\n"}
-{"Time":"2018-10-19T11:32:01.100826265+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetProductList_Error","Output":"\n"}
-{"Time":"2018-10-19T11:32:01.100832709+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetProductList_Error","Output":"\u001b[31m\u001b[0m\u001b[33m\u001b[0m\u001b[32m\n"}
-{"Time":"2018-10-19T11:32:01.100839539+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetProductList_Error","Output":"8 total assertions\u001b[0m\n"}
-{"Time":"2018-10-19T11:32:01.100846318+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetProductList_Error","Output":"\n"}
-{"Time":"2018-10-19T11:32:01.100853876+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetProductList_Error","Output":"--- PASS: TestGetProductList_Error (0.00s)\n"}
-{"Time":"2018-10-19T11:32:01.100860721+07:00","Action":"pass","Package":"medium/models/logic/products","Test":"TestGetProductList_Error","Elapsed":0}
-{"Time":"2018-10-19T11:32:01.100867299+07:00","Action":"output","Package":"medium/models/logic/products","Output":"PASS\n"}
-{"Time":"2018-10-19T11:32:01.100873894+07:00","Action":"output","Package":"medium/models/logic/products","Output":"ok  \tmedium/models/logic/products\t(cached)\n"}
-{"Time":"2018-10-19T11:32:01.100882301+07:00","Action":"pass","Package":"medium/models/logic/products","Elapsed":0.031}
-{"Time":"2018-10-19T11:33:04.486616956+07:00","Action":"run","Package":"medium/models/logic/products","Test":"TestInsertProduct_Success"}
-{"Time":"2018-10-19T11:33:04.486725669+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestInsertProduct_Success","Output":"=== RUN   TestInsertProduct_Success\n"}
-{"Time":"2018-10-19T11:33:04.486739276+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestInsertProduct_Success","Output":"\n"}
-{"Time":"2018-10-19T11:33:04.486746787+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestInsertProduct_Success","Output":"  TestInsertProduct_Success \n"}
-{"Time":"2018-10-19T11:33:04.48675525+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestInsertProduct_Success","Output":"    Should Success \u001b[32m✔\u001b[0m\n"}
-{"Time":"2018-10-19T11:33:04.486768634+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestInsertProduct_Success","Output":"\n"}
-{"Time":"2018-10-19T11:33:04.486774929+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestInsertProduct_Success","Output":"\u001b[31m\u001b[0m\u001b[33m\u001b[0m\u001b[32m\n"}
-{"Time":"2018-10-19T11:33:04.486782857+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestInsertProduct_Success","Output":"1 total assertion\u001b[0m\n"}
-{"Time":"2018-10-19T11:33:04.486788687+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestInsertProduct_Success","Output":"\n"}
-{"Time":"2018-10-19T11:33:04.486798615+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestInsertProduct_Success","Output":"--- PASS: TestInsertProduct_Success (0.00s)\n"}
-{"Time":"2018-10-19T11:33:04.486805401+07:00","Action":"pass","Package":"medium/models/logic/products","Test":"TestInsertProduct_Success","Elapsed":0}
-{"Time":"2018-10-19T11:33:04.486813175+07:00","Action":"run","Package":"medium/models/logic/products","Test":"TestInsertProduct_Error"}
-{"Time":"2018-10-19T11:33:04.486819343+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestInsertProduct_Error","Output":"=== RUN   TestInsertProduct_Error\n"}
-{"Time":"2018-10-19T11:33:04.486931805+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestInsertProduct_Error","Output":"2018/10/19 11:33:04.486 \u001b[1;33m[W]  InsertProduct @products fail to get product \u001b[0m\n"}
-{"Time":"2018-10-19T11:33:04.486946413+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestInsertProduct_Error","Output":"\n"}
-{"Time":"2018-10-19T11:33:04.486953835+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestInsertProduct_Error","Output":"  TestInsertProduct_Error \n"}
-{"Time":"2018-10-19T11:33:04.486960652+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestInsertProduct_Error","Output":"    Should Success \u001b[32m✔\u001b[0m\n"}
-{"Time":"2018-10-19T11:33:04.486967485+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestInsertProduct_Error","Output":"\n"}
-{"Time":"2018-10-19T11:33:04.486975596+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestInsertProduct_Error","Output":"\u001b[31m\u001b[0m\u001b[33m\u001b[0m\u001b[32m\n"}
-{"Time":"2018-10-19T11:33:04.486982495+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestInsertProduct_Error","Output":"2 total assertions\u001b[0m\n"}
-{"Time":"2018-10-19T11:33:04.486988832+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestInsertProduct_Error","Output":"\n"}
-{"Time":"2018-10-19T11:33:04.486996897+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestInsertProduct_Error","Output":"--- PASS: TestInsertProduct_Error (0.00s)\n"}
-{"Time":"2018-10-19T11:33:04.487004787+07:00","Action":"pass","Package":"medium/models/logic/products","Test":"TestInsertProduct_Error","Elapsed":0}
-{"Time":"2018-10-19T11:33:04.48701206+07:00","Action":"run","Package":"medium/models/logic/products","Test":"TestGetAllProduct_Success"}
-{"Time":"2018-10-19T11:33:04.487018239+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetAllProduct_Success","Output":"=== RUN   TestGetAllProduct_Success\n"}
-{"Time":"2018-10-19T11:33:04.48702797+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetAllProduct_Success","Output":"\n"}
-{"Time":"2018-10-19T11:33:04.487036522+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetAllProduct_Success","Output":"  TestGetAllProduct_Success \n"}
-{"Time":"2018-10-19T11:33:04.487064106+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetAllProduct_Success","Output":"    Should Success \u001b[32m✔\u001b[0m\u001b[32m✔\u001b[0m\n"}
-{"Time":"2018-10-19T11:33:04.487073661+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetAllProduct_Success","Output":"\n"}
-{"Time":"2018-10-19T11:33:04.487082382+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetAllProduct_Success","Output":"\u001b[31m\u001b[0m\u001b[33m\u001b[0m\u001b[32m\n"}
-{"Time":"2018-10-19T11:33:04.487089881+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetAllProduct_Success","Output":"4 total assertions\u001b[0m\n"}
-{"Time":"2018-10-19T11:33:04.487096591+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetAllProduct_Success","Output":"\n"}
-{"Time":"2018-10-19T11:33:04.48710458+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetAllProduct_Success","Output":"--- PASS: TestGetAllProduct_Success (0.00s)\n"}
-{"Time":"2018-10-19T11:33:04.487113766+07:00","Action":"pass","Package":"medium/models/logic/products","Test":"TestGetAllProduct_Success","Elapsed":0}
-{"Time":"2018-10-19T11:33:04.487120923+07:00","Action":"run","Package":"medium/models/logic/products","Test":"TestGetProductList_Success"}
-{"Time":"2018-10-19T11:33:04.48712712+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetProductList_Success","Output":"=== RUN   TestGetProductList_Success\n"}
-{"Time":"2018-10-19T11:33:04.487135587+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetProductList_Success","Output":"2018/10/19 11:33:04.487 \u001b[1;33m[W]  {[{01  0 0 0 }]} \u001b[0m\n"}
-{"Time":"2018-10-19T11:33:04.487163496+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetProductList_Success","Output":"\n"}
-{"Time":"2018-10-19T11:33:04.487189072+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetProductList_Success","Output":"  TestGetProductList_Success \n"}
-{"Time":"2018-10-19T11:33:04.487205622+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetProductList_Success","Output":"    Should Success \u001b[32m✔\u001b[0m\u001b[32m✔\u001b[0m\n"}
-{"Time":"2018-10-19T11:33:04.487213485+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetProductList_Success","Output":"\n"}
-{"Time":"2018-10-19T11:33:04.487221601+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetProductList_Success","Output":"\u001b[31m\u001b[0m\u001b[33m\u001b[0m\u001b[32m\n"}
-{"Time":"2018-10-19T11:33:04.487228947+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetProductList_Success","Output":"6 total assertions\u001b[0m\n"}
-{"Time":"2018-10-19T11:33:04.487236379+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetProductList_Success","Output":"\n"}
-{"Time":"2018-10-19T11:33:04.487244021+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetProductList_Success","Output":"--- PASS: TestGetProductList_Success (0.00s)\n"}
-{"Time":"2018-10-19T11:33:04.487252846+07:00","Action":"pass","Package":"medium/models/logic/products","Test":"TestGetProductList_Success","Elapsed":0}
-{"Time":"2018-10-19T11:33:04.487259709+07:00","Action":"run","Package":"medium/models/logic/products","Test":"TestGetProductList_Error"}
-{"Time":"2018-10-19T11:33:04.487266099+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetProductList_Error","Output":"=== RUN   TestGetProductList_Error\n"}
-{"Time":"2018-10-19T11:33:04.487276293+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetProductList_Error","Output":"\n"}
-{"Time":"2018-10-19T11:33:04.487299724+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetProductList_Error","Output":"  TestGetProductList_Error \n"}
-{"Time":"2018-10-19T11:33:04.487330603+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetProductList_Error","Output":"    Should Success \u001b[32m✔\u001b[0m\u001b[32m✔\u001b[0m\n"}
-{"Time":"2018-10-19T11:33:04.487339219+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetProductList_Error","Output":"\n"}
-{"Time":"2018-10-19T11:33:04.487347492+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetProductList_Error","Output":"\u001b[31m\u001b[0m\u001b[33m\u001b[0m\u001b[32m\n"}
-{"Time":"2018-10-19T11:33:04.487354625+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetProductList_Error","Output":"8 total assertions\u001b[0m\n"}
-{"Time":"2018-10-19T11:33:04.487361235+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetProductList_Error","Output":"\n"}
-{"Time":"2018-10-19T11:33:04.487368953+07:00","Action":"output","Package":"medium/models/logic/products","Test":"TestGetProductList_Error","Output":"--- PASS: TestGetProductList_Error (0.00s)\n"}
-{"Time":"2018-10-19T11:33:04.487377231+07:00","Action":"pass","Package":"medium/models/logic/products","Test":"TestGetProductList_Error","Elapsed":0}
-{"Time":"2018-10-19T11:33:04.48739914+07:00","Action":"output","Package":"medium/models/logic/products","Output":"PASS\n"}
-{"Time":"2018-10-19T11:33:04.488617964+07:00","Action":"output","Package":"medium/models/logic/products","Output":"ok  \tmedium/models/logic/products\t0.006s\n"}
-{"Time":"2018-10-19T11:33:04.488999775+07:00","Action":"pass","Package":"medium/models/logic/products","Elapsed":0.007}
+{"Time":"2018-10-17T13:24:35.235947408+07:00","Action":"run","Package":"collections/models/logic/svclog","Test":"TestInsertServiceLog"}
+{"Time":"2018-10-17T13:24:35.236089008+07:00","Action":"output","Package":"collections/models/logic/svclog","Test":"TestInsertServiceLog","Output":"=== RUN   TestInsertServiceLog\n"}
+{"Time":"2018-10-17T13:24:35.236101367+07:00","Action":"output","Package":"collections/models/logic/svclog","Test":"TestInsertServiceLog","Output":"\n"}
+{"Time":"2018-10-17T13:24:35.236106792+07:00","Action":"output","Package":"collections/models/logic/svclog","Test":"TestInsertServiceLog","Output":"  TestInsertServiceLog \n"}
+{"Time":"2018-10-17T13:24:35.236110873+07:00","Action":"output","Package":"collections/models/logic/svclog","Test":"TestInsertServiceLog","Output":"    Should Success \u001b[32m✔\u001b[0m\n"}
+{"Time":"2018-10-17T13:24:35.236116506+07:00","Action":"output","Package":"collections/models/logic/svclog","Test":"TestInsertServiceLog","Output":"\n"}
+{"Time":"2018-10-17T13:24:35.236120454+07:00","Action":"output","Package":"collections/models/logic/svclog","Test":"TestInsertServiceLog","Output":"\u001b[31m\u001b[0m\u001b[33m\u001b[0m\u001b[32m\n"}
+{"Time":"2018-10-17T13:24:35.236124523+07:00","Action":"output","Package":"collections/models/logic/svclog","Test":"TestInsertServiceLog","Output":"1 total assertion\u001b[0m\n"}
+{"Time":"2018-10-17T13:24:35.236128851+07:00","Action":"output","Package":"collections/models/logic/svclog","Test":"TestInsertServiceLog","Output":"\n"}
+{"Time":"2018-10-17T13:24:35.236135424+07:00","Action":"output","Package":"collections/models/logic/svclog","Test":"TestInsertServiceLog","Output":"--- PASS: TestInsertServiceLog (0.00s)\n"}
+{"Time":"2018-10-17T13:24:35.236140002+07:00","Action":"pass","Package":"collections/models/logic/svclog","Test":"TestInsertServiceLog","Elapsed":0}
+{"Time":"2018-10-17T13:24:35.236145579+07:00","Action":"run","Package":"collections/models/logic/svclog","Test":"TestGetAllServiceLog"}
+{"Time":"2018-10-17T13:24:35.236149151+07:00","Action":"output","Package":"collections/models/logic/svclog","Test":"TestGetAllServiceLog","Output":"=== RUN   TestGetAllServiceLog\n"}
+{"Time":"2018-10-17T13:24:35.236154858+07:00","Action":"output","Package":"collections/models/logic/svclog","Test":"TestGetAllServiceLog","Output":"\n"}
+{"Time":"2018-10-17T13:24:35.236165005+07:00","Action":"output","Package":"collections/models/logic/svclog","Test":"TestGetAllServiceLog","Output":"  TestGetAllServiceLog \n"}
+{"Time":"2018-10-17T13:24:35.236202796+07:00","Action":"output","Package":"collections/models/logic/svclog","Test":"TestGetAllServiceLog","Output":"    Should Success \u001b[32m✔\u001b[0m\u001b[32m✔\u001b[0m\n"}
+{"Time":"2018-10-17T13:24:35.236209425+07:00","Action":"output","Package":"collections/models/logic/svclog","Test":"TestGetAllServiceLog","Output":"\n"}
+{"Time":"2018-10-17T13:24:35.23621492+07:00","Action":"output","Package":"collections/models/logic/svclog","Test":"TestGetAllServiceLog","Output":"\u001b[31m\u001b[0m\u001b[33m\u001b[0m\u001b[32m\n"}
+{"Time":"2018-10-17T13:24:35.236221702+07:00","Action":"output","Package":"collections/models/logic/svclog","Test":"TestGetAllServiceLog","Output":"3 total assertions\u001b[0m\n"}
+{"Time":"2018-10-17T13:24:35.236228805+07:00","Action":"output","Package":"collections/models/logic/svclog","Test":"TestGetAllServiceLog","Output":"\n"}
+{"Time":"2018-10-17T13:24:35.236233989+07:00","Action":"output","Package":"collections/models/logic/svclog","Test":"TestGetAllServiceLog","Output":"--- PASS: TestGetAllServiceLog (0.00s)\n"}
+{"Time":"2018-10-17T13:24:35.236240313+07:00","Action":"pass","Package":"collections/models/logic/svclog","Test":"TestGetAllServiceLog","Elapsed":0}
+{"Time":"2018-10-17T13:24:35.236244391+07:00","Action":"run","Package":"collections/models/logic/svclog","Test":"TestGetOneByJobIDServiceLog"}
+{"Time":"2018-10-17T13:24:35.236248215+07:00","Action":"output","Package":"collections/models/logic/svclog","Test":"TestGetOneByJobIDServiceLog","Output":"=== RUN   TestGetOneByJobIDServiceLog\n"}
+{"Time":"2018-10-17T13:24:35.236271222+07:00","Action":"output","Package":"collections/models/logic/svclog","Test":"TestGetOneByJobIDServiceLog","Output":"\n"}
+{"Time":"2018-10-17T13:24:35.236305362+07:00","Action":"output","Package":"collections/models/logic/svclog","Test":"TestGetOneByJobIDServiceLog","Output":"  TestGetOneByJobIDServiceLog \n"}
+{"Time":"2018-10-17T13:24:35.23633055+07:00","Action":"output","Package":"collections/models/logic/svclog","Test":"TestGetOneByJobIDServiceLog","Output":"    Should Success \u001b[32m✔\u001b[0m\u001b[32m✔\u001b[0m\n"}
+{"Time":"2018-10-17T13:24:35.236337785+07:00","Action":"output","Package":"collections/models/logic/svclog","Test":"TestGetOneByJobIDServiceLog","Output":"\n"}
+{"Time":"2018-10-17T13:24:35.236343145+07:00","Action":"output","Package":"collections/models/logic/svclog","Test":"TestGetOneByJobIDServiceLog","Output":"\u001b[31m\u001b[0m\u001b[33m\u001b[0m\u001b[32m\n"}
+{"Time":"2018-10-17T13:24:35.236349595+07:00","Action":"output","Package":"collections/models/logic/svclog","Test":"TestGetOneByJobIDServiceLog","Output":"5 total assertions\u001b[0m\n"}
+{"Time":"2018-10-17T13:24:35.236354786+07:00","Action":"output","Package":"collections/models/logic/svclog","Test":"TestGetOneByJobIDServiceLog","Output":"\n"}
+{"Time":"2018-10-17T13:24:35.236359721+07:00","Action":"output","Package":"collections/models/logic/svclog","Test":"TestGetOneByJobIDServiceLog","Output":"--- PASS: TestGetOneByJobIDServiceLog (0.00s)\n"}
+{"Time":"2018-10-17T13:24:35.236365495+07:00","Action":"pass","Package":"collections/models/logic/svclog","Test":"TestGetOneByJobIDServiceLog","Elapsed":0}
+{"Time":"2018-10-17T13:24:35.236369599+07:00","Action":"run","Package":"collections/models/logic/svclog","Test":"TestUpdateByJobIDServiceLog"}
+{"Time":"2018-10-17T13:24:35.236373335+07:00","Action":"output","Package":"collections/models/logic/svclog","Test":"TestUpdateByJobIDServiceLog","Output":"=== RUN   TestUpdateByJobIDServiceLog\n"}
+{"Time":"2018-10-17T13:24:35.236392901+07:00","Action":"output","Package":"collections/models/logic/svclog","Test":"TestUpdateByJobIDServiceLog","Output":"\n"}
+{"Time":"2018-10-17T13:24:35.236425167+07:00","Action":"output","Package":"collections/models/logic/svclog","Test":"TestUpdateByJobIDServiceLog","Output":"  TestUpdateByJobIDServiceLog \n"}
+{"Time":"2018-10-17T13:24:35.236436327+07:00","Action":"output","Package":"collections/models/logic/svclog","Test":"TestUpdateByJobIDServiceLog","Output":"    Should Success \u001b[32m✔\u001b[0m\n"}
+{"Time":"2018-10-17T13:24:35.236440515+07:00","Action":"output","Package":"collections/models/logic/svclog","Test":"TestUpdateByJobIDServiceLog","Output":"\n"}
+{"Time":"2018-10-17T13:24:35.236445361+07:00","Action":"output","Package":"collections/models/logic/svclog","Test":"TestUpdateByJobIDServiceLog","Output":"\u001b[31m\u001b[0m\u001b[33m\u001b[0m\u001b[32m\n"}
+{"Time":"2018-10-17T13:24:35.236450265+07:00","Action":"output","Package":"collections/models/logic/svclog","Test":"TestUpdateByJobIDServiceLog","Output":"6 total assertions\u001b[0m\n"}
+{"Time":"2018-10-17T13:24:35.236456914+07:00","Action":"output","Package":"collections/models/logic/svclog","Test":"TestUpdateByJobIDServiceLog","Output":"\n"}
+{"Time":"2018-10-17T13:24:35.23646516+07:00","Action":"output","Package":"collections/models/logic/svclog","Test":"TestUpdateByJobIDServiceLog","Output":"--- PASS: TestUpdateByJobIDServiceLog (0.00s)\n"}
+{"Time":"2018-10-17T13:24:35.236470186+07:00","Action":"pass","Package":"collections/models/logic/svclog","Test":"TestUpdateByJobIDServiceLog","Elapsed":0}
+{"Time":"2018-10-17T13:24:35.236474558+07:00","Action":"run","Package":"collections/models/logic/svclog","Test":"TestDeleteByJobIDServiceLog"}
+{"Time":"2018-10-17T13:24:35.236478147+07:00","Action":"output","Package":"collections/models/logic/svclog","Test":"TestDeleteByJobIDServiceLog","Output":"=== RUN   TestDeleteByJobIDServiceLog\n"}
+{"Time":"2018-10-17T13:24:35.236500125+07:00","Action":"output","Package":"collections/models/logic/svclog","Test":"TestDeleteByJobIDServiceLog","Output":"\n"}
+{"Time":"2018-10-17T13:24:35.236528471+07:00","Action":"output","Package":"collections/models/logic/svclog","Test":"TestDeleteByJobIDServiceLog","Output":"  TestDeleteByJobIDServiceLog \n"}
+{"Time":"2018-10-17T13:24:35.236545695+07:00","Action":"output","Package":"collections/models/logic/svclog","Test":"TestDeleteByJobIDServiceLog","Output":"    Should Success \u001b[32m✔\u001b[0m\n"}
+{"Time":"2018-10-17T13:24:35.236550864+07:00","Action":"output","Package":"collections/models/logic/svclog","Test":"TestDeleteByJobIDServiceLog","Output":"\n"}
+{"Time":"2018-10-17T13:24:35.236556079+07:00","Action":"output","Package":"collections/models/logic/svclog","Test":"TestDeleteByJobIDServiceLog","Output":"\u001b[31m\u001b[0m\u001b[33m\u001b[0m\u001b[32m\n"}
+{"Time":"2018-10-17T13:24:35.236561429+07:00","Action":"output","Package":"collections/models/logic/svclog","Test":"TestDeleteByJobIDServiceLog","Output":"7 total assertions\u001b[0m\n"}
+{"Time":"2018-10-17T13:24:35.236566395+07:00","Action":"output","Package":"collections/models/logic/svclog","Test":"TestDeleteByJobIDServiceLog","Output":"\n"}
+{"Time":"2018-10-17T13:24:35.236573473+07:00","Action":"output","Package":"collections/models/logic/svclog","Test":"TestDeleteByJobIDServiceLog","Output":"--- PASS: TestDeleteByJobIDServiceLog (0.00s)\n"}
+{"Time":"2018-10-17T13:24:35.236579109+07:00","Action":"pass","Package":"collections/models/logic/svclog","Test":"TestDeleteByJobIDServiceLog","Elapsed":0}
+{"Time":"2018-10-17T13:24:35.236584405+07:00","Action":"output","Package":"collections/models/logic/svclog","Output":"PASS\n"}
+{"Time":"2018-10-17T13:24:35.237634871+07:00","Action":"output","Package":"collections/models/logic/svclog","Output":"ok  \tcollections/models/logic/svclog\t0.008s\n"}
+{"Time":"2018-10-17T13:24:35.237920427+07:00","Action":"pass","Package":"collections/models/logic/svclog","Elapsed":0.008}
+{"Time":"2018-10-19T11:03:15.815688325+07:00","Action":"run","Package":"collections/models/logic/products","Test":"TestInsertProduct_Success"}
+{"Time":"2018-10-19T11:03:15.81580618+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestInsertProduct_Success","Output":"=== RUN   TestInsertProduct_Success\n"}
+{"Time":"2018-10-19T11:03:15.815818287+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestInsertProduct_Success","Output":"\n"}
+{"Time":"2018-10-19T11:03:15.815824809+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestInsertProduct_Success","Output":"  TestInsertProduct_Success \n"}
+{"Time":"2018-10-19T11:03:15.815831928+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestInsertProduct_Success","Output":"    Should Success \u001b[32m✔\u001b[0m\n"}
+{"Time":"2018-10-19T11:03:15.815838575+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestInsertProduct_Success","Output":"\n"}
+{"Time":"2018-10-19T11:03:15.815845863+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestInsertProduct_Success","Output":"\u001b[31m\u001b[0m\u001b[33m\u001b[0m\u001b[32m\n"}
+{"Time":"2018-10-19T11:03:15.815851235+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestInsertProduct_Success","Output":"1 total assertion\u001b[0m\n"}
+{"Time":"2018-10-19T11:03:15.815855829+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestInsertProduct_Success","Output":"\n"}
+{"Time":"2018-10-19T11:03:15.815862312+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestInsertProduct_Success","Output":"--- PASS: TestInsertProduct_Success (0.00s)\n"}
+{"Time":"2018-10-19T11:03:15.81586933+07:00","Action":"pass","Package":"collections/models/logic/products","Test":"TestInsertProduct_Success","Elapsed":0}
+{"Time":"2018-10-19T11:03:15.81588001+07:00","Action":"run","Package":"collections/models/logic/products","Test":"TestInsertProduct_Error"}
+{"Time":"2018-10-19T11:03:15.815884586+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestInsertProduct_Error","Output":"=== RUN   TestInsertProduct_Error\n"}
+{"Time":"2018-10-19T11:03:15.815934895+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestInsertProduct_Error","Output":"2018/10/19 11:03:15.815 \u001b[1;33m[W]  InsertProduct @products fail to get product \u001b[0m\n"}
+{"Time":"2018-10-19T11:03:15.815990047+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestInsertProduct_Error","Output":"\n"}
+{"Time":"2018-10-19T11:03:15.81602039+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestInsertProduct_Error","Output":"  TestInsertProduct_Error \n"}
+{"Time":"2018-10-19T11:03:15.816040452+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestInsertProduct_Error","Output":"    Should Success \u001b[32m✔\u001b[0m\n"}
+{"Time":"2018-10-19T11:03:15.816050864+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestInsertProduct_Error","Output":"\n"}
+{"Time":"2018-10-19T11:03:15.816059593+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestInsertProduct_Error","Output":"\u001b[31m\u001b[0m\u001b[33m\u001b[0m\u001b[32m\n"}
+{"Time":"2018-10-19T11:03:15.81606752+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestInsertProduct_Error","Output":"2 total assertions\u001b[0m\n"}
+{"Time":"2018-10-19T11:03:15.816074445+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestInsertProduct_Error","Output":"\n"}
+{"Time":"2018-10-19T11:03:15.816083254+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestInsertProduct_Error","Output":"--- PASS: TestInsertProduct_Error (0.00s)\n"}
+{"Time":"2018-10-19T11:03:15.816094457+07:00","Action":"pass","Package":"collections/models/logic/products","Test":"TestInsertProduct_Error","Elapsed":0}
+{"Time":"2018-10-19T11:03:15.816101954+07:00","Action":"run","Package":"collections/models/logic/products","Test":"TestGetAllProduct_Success"}
+{"Time":"2018-10-19T11:03:15.816108377+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetAllProduct_Success","Output":"=== RUN   TestGetAllProduct_Success\n"}
+{"Time":"2018-10-19T11:03:15.816141207+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetAllProduct_Success","Output":"\n"}
+{"Time":"2018-10-19T11:03:15.816172561+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetAllProduct_Success","Output":"  TestGetAllProduct_Success \n"}
+{"Time":"2018-10-19T11:03:15.816215763+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetAllProduct_Success","Output":"    Should Success \u001b[32m✔\u001b[0m\u001b[32m✔\u001b[0m\n"}
+{"Time":"2018-10-19T11:03:15.816226242+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetAllProduct_Success","Output":"\n"}
+{"Time":"2018-10-19T11:03:15.816234498+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetAllProduct_Success","Output":"\u001b[31m\u001b[0m\u001b[33m\u001b[0m\u001b[32m\n"}
+{"Time":"2018-10-19T11:03:15.81624189+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetAllProduct_Success","Output":"4 total assertions\u001b[0m\n"}
+{"Time":"2018-10-19T11:03:15.816249532+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetAllProduct_Success","Output":"\n"}
+{"Time":"2018-10-19T11:03:15.816257992+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetAllProduct_Success","Output":"--- PASS: TestGetAllProduct_Success (0.00s)\n"}
+{"Time":"2018-10-19T11:03:15.816271729+07:00","Action":"pass","Package":"collections/models/logic/products","Test":"TestGetAllProduct_Success","Elapsed":0}
+{"Time":"2018-10-19T11:03:15.816278631+07:00","Action":"run","Package":"collections/models/logic/products","Test":"TestGetProductList_Success"}
+{"Time":"2018-10-19T11:03:15.816284561+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetProductList_Success","Output":"=== RUN   TestGetProductList_Success\n"}
+{"Time":"2018-10-19T11:03:15.816313402+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetProductList_Success","Output":"\n"}
+{"Time":"2018-10-19T11:03:15.816343974+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetProductList_Success","Output":"  TestGetProductList_Success \n"}
+{"Time":"2018-10-19T11:03:15.816382131+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetProductList_Success","Output":"    Should Success \u001b[32m✔\u001b[0m\u001b[32m✔\u001b[0m\n"}
+{"Time":"2018-10-19T11:03:15.816390858+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetProductList_Success","Output":"\n"}
+{"Time":"2018-10-19T11:03:15.816398934+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetProductList_Success","Output":"\u001b[31m\u001b[0m\u001b[33m\u001b[0m\u001b[32m\n"}
+{"Time":"2018-10-19T11:03:15.816406454+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetProductList_Success","Output":"6 total assertions\u001b[0m\n"}
+{"Time":"2018-10-19T11:03:15.816414034+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetProductList_Success","Output":"\n"}
+{"Time":"2018-10-19T11:03:15.816422305+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetProductList_Success","Output":"--- PASS: TestGetProductList_Success (0.00s)\n"}
+{"Time":"2018-10-19T11:03:15.816431072+07:00","Action":"pass","Package":"collections/models/logic/products","Test":"TestGetProductList_Success","Elapsed":0}
+{"Time":"2018-10-19T11:03:15.816437936+07:00","Action":"run","Package":"collections/models/logic/products","Test":"TestGetProductList_Error"}
+{"Time":"2018-10-19T11:03:15.816443887+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetProductList_Error","Output":"=== RUN   TestGetProductList_Error\n"}
+{"Time":"2018-10-19T11:03:15.816476799+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetProductList_Error","Output":"\n"}
+{"Time":"2018-10-19T11:03:15.816506246+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetProductList_Error","Output":"  TestGetProductList_Error \n"}
+{"Time":"2018-10-19T11:03:15.816544833+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetProductList_Error","Output":"    Should Success \u001b[32m✔\u001b[0m\u001b[32m✔\u001b[0m\n"}
+{"Time":"2018-10-19T11:03:15.816553277+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetProductList_Error","Output":"\n"}
+{"Time":"2018-10-19T11:03:15.816560851+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetProductList_Error","Output":"\u001b[31m\u001b[0m\u001b[33m\u001b[0m\u001b[32m\n"}
+{"Time":"2018-10-19T11:03:15.816567809+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetProductList_Error","Output":"8 total assertions\u001b[0m\n"}
+{"Time":"2018-10-19T11:03:15.816573825+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetProductList_Error","Output":"\n"}
+{"Time":"2018-10-19T11:03:15.816581178+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetProductList_Error","Output":"--- PASS: TestGetProductList_Error (0.00s)\n"}
+{"Time":"2018-10-19T11:03:15.816592708+07:00","Action":"pass","Package":"collections/models/logic/products","Test":"TestGetProductList_Error","Elapsed":0}
+{"Time":"2018-10-19T11:03:15.816599839+07:00","Action":"output","Package":"collections/models/logic/products","Output":"PASS\n"}
+{"Time":"2018-10-19T11:03:15.817461006+07:00","Action":"output","Package":"collections/models/logic/products","Output":"ok  \tcollections/models/logic/products\t0.006s\n"}
+{"Time":"2018-10-19T11:03:15.862574878+07:00","Action":"pass","Package":"collections/models/logic/products","Elapsed":0.052}
+{"Time":"2018-10-19T11:32:01.100377954+07:00","Action":"run","Package":"collections/models/logic/products","Test":"TestInsertProduct_Success"}
+{"Time":"2018-10-19T11:32:01.100481469+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestInsertProduct_Success","Output":"=== RUN   TestInsertProduct_Success\n"}
+{"Time":"2018-10-19T11:32:01.100492248+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestInsertProduct_Success","Output":"\n"}
+{"Time":"2018-10-19T11:32:01.100499246+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestInsertProduct_Success","Output":"  TestInsertProduct_Success \n"}
+{"Time":"2018-10-19T11:32:01.100507112+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestInsertProduct_Success","Output":"    Should Success \u001b[32m✔\u001b[0m\n"}
+{"Time":"2018-10-19T11:32:01.100513559+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestInsertProduct_Success","Output":"\n"}
+{"Time":"2018-10-19T11:32:01.100519556+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestInsertProduct_Success","Output":"\u001b[31m\u001b[0m\u001b[33m\u001b[0m\u001b[32m\n"}
+{"Time":"2018-10-19T11:32:01.10052737+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestInsertProduct_Success","Output":"1 total assertion\u001b[0m\n"}
+{"Time":"2018-10-19T11:32:01.100533472+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestInsertProduct_Success","Output":"\n"}
+{"Time":"2018-10-19T11:32:01.100541501+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestInsertProduct_Success","Output":"--- PASS: TestInsertProduct_Success (0.00s)\n"}
+{"Time":"2018-10-19T11:32:01.100548421+07:00","Action":"pass","Package":"collections/models/logic/products","Test":"TestInsertProduct_Success","Elapsed":0}
+{"Time":"2018-10-19T11:32:01.100556228+07:00","Action":"run","Package":"collections/models/logic/products","Test":"TestInsertProduct_Error"}
+{"Time":"2018-10-19T11:32:01.100561781+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestInsertProduct_Error","Output":"=== RUN   TestInsertProduct_Error\n"}
+{"Time":"2018-10-19T11:32:01.100567824+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestInsertProduct_Error","Output":"2018/10/19 11:03:15.815 \u001b[1;33m[W]  InsertProduct @products fail to get product \u001b[0m\n"}
+{"Time":"2018-10-19T11:32:01.100576551+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestInsertProduct_Error","Output":"\n"}
+{"Time":"2018-10-19T11:32:01.100582674+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestInsertProduct_Error","Output":"  TestInsertProduct_Error \n"}
+{"Time":"2018-10-19T11:32:01.100589276+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestInsertProduct_Error","Output":"    Should Success \u001b[32m✔\u001b[0m\n"}
+{"Time":"2018-10-19T11:32:01.100596187+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestInsertProduct_Error","Output":"\n"}
+{"Time":"2018-10-19T11:32:01.100602272+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestInsertProduct_Error","Output":"\u001b[31m\u001b[0m\u001b[33m\u001b[0m\u001b[32m\n"}
+{"Time":"2018-10-19T11:32:01.100617463+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestInsertProduct_Error","Output":"2 total assertions\u001b[0m\n"}
+{"Time":"2018-10-19T11:32:01.100624006+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestInsertProduct_Error","Output":"\n"}
+{"Time":"2018-10-19T11:32:01.100631371+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestInsertProduct_Error","Output":"--- PASS: TestInsertProduct_Error (0.00s)\n"}
+{"Time":"2018-10-19T11:32:01.100638172+07:00","Action":"pass","Package":"collections/models/logic/products","Test":"TestInsertProduct_Error","Elapsed":0}
+{"Time":"2018-10-19T11:32:01.100644925+07:00","Action":"run","Package":"collections/models/logic/products","Test":"TestGetAllProduct_Success"}
+{"Time":"2018-10-19T11:32:01.100651187+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetAllProduct_Success","Output":"=== RUN   TestGetAllProduct_Success\n"}
+{"Time":"2018-10-19T11:32:01.100657554+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetAllProduct_Success","Output":"\n"}
+{"Time":"2018-10-19T11:32:01.100663512+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetAllProduct_Success","Output":"  TestGetAllProduct_Success \n"}
+{"Time":"2018-10-19T11:32:01.100669961+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetAllProduct_Success","Output":"    Should Success \u001b[32m✔\u001b[0m\u001b[32m✔\u001b[0m\n"}
+{"Time":"2018-10-19T11:32:01.100677212+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetAllProduct_Success","Output":"\n"}
+{"Time":"2018-10-19T11:32:01.100683036+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetAllProduct_Success","Output":"\u001b[31m\u001b[0m\u001b[33m\u001b[0m\u001b[32m\n"}
+{"Time":"2018-10-19T11:32:01.10068921+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetAllProduct_Success","Output":"4 total assertions\u001b[0m\n"}
+{"Time":"2018-10-19T11:32:01.100695107+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetAllProduct_Success","Output":"\n"}
+{"Time":"2018-10-19T11:32:01.100702721+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetAllProduct_Success","Output":"--- PASS: TestGetAllProduct_Success (0.00s)\n"}
+{"Time":"2018-10-19T11:32:01.10070977+07:00","Action":"pass","Package":"collections/models/logic/products","Test":"TestGetAllProduct_Success","Elapsed":0}
+{"Time":"2018-10-19T11:32:01.100715802+07:00","Action":"run","Package":"collections/models/logic/products","Test":"TestGetProductList_Success"}
+{"Time":"2018-10-19T11:32:01.100721301+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetProductList_Success","Output":"=== RUN   TestGetProductList_Success\n"}
+{"Time":"2018-10-19T11:32:01.100727667+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetProductList_Success","Output":"\n"}
+{"Time":"2018-10-19T11:32:01.100733676+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetProductList_Success","Output":"  TestGetProductList_Success \n"}
+{"Time":"2018-10-19T11:32:01.100739975+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetProductList_Success","Output":"    Should Success \u001b[32m✔\u001b[0m\u001b[32m✔\u001b[0m\n"}
+{"Time":"2018-10-19T11:32:01.100746474+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetProductList_Success","Output":"\n"}
+{"Time":"2018-10-19T11:32:01.100752365+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetProductList_Success","Output":"\u001b[31m\u001b[0m\u001b[33m\u001b[0m\u001b[32m\n"}
+{"Time":"2018-10-19T11:32:01.100763253+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetProductList_Success","Output":"6 total assertions\u001b[0m\n"}
+{"Time":"2018-10-19T11:32:01.10077068+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetProductList_Success","Output":"\n"}
+{"Time":"2018-10-19T11:32:01.100778503+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetProductList_Success","Output":"--- PASS: TestGetProductList_Success (0.00s)\n"}
+{"Time":"2018-10-19T11:32:01.100785809+07:00","Action":"pass","Package":"collections/models/logic/products","Test":"TestGetProductList_Success","Elapsed":0}
+{"Time":"2018-10-19T11:32:01.100792625+07:00","Action":"run","Package":"collections/models/logic/products","Test":"TestGetProductList_Error"}
+{"Time":"2018-10-19T11:32:01.100798768+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetProductList_Error","Output":"=== RUN   TestGetProductList_Error\n"}
+{"Time":"2018-10-19T11:32:01.100805449+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetProductList_Error","Output":"\n"}
+{"Time":"2018-10-19T11:32:01.100811846+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetProductList_Error","Output":"  TestGetProductList_Error \n"}
+{"Time":"2018-10-19T11:32:01.100819111+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetProductList_Error","Output":"    Should Success \u001b[32m✔\u001b[0m\u001b[32m✔\u001b[0m\n"}
+{"Time":"2018-10-19T11:32:01.100826265+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetProductList_Error","Output":"\n"}
+{"Time":"2018-10-19T11:32:01.100832709+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetProductList_Error","Output":"\u001b[31m\u001b[0m\u001b[33m\u001b[0m\u001b[32m\n"}
+{"Time":"2018-10-19T11:32:01.100839539+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetProductList_Error","Output":"8 total assertions\u001b[0m\n"}
+{"Time":"2018-10-19T11:32:01.100846318+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetProductList_Error","Output":"\n"}
+{"Time":"2018-10-19T11:32:01.100853876+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetProductList_Error","Output":"--- PASS: TestGetProductList_Error (0.00s)\n"}
+{"Time":"2018-10-19T11:32:01.100860721+07:00","Action":"pass","Package":"collections/models/logic/products","Test":"TestGetProductList_Error","Elapsed":0}
+{"Time":"2018-10-19T11:32:01.100867299+07:00","Action":"output","Package":"collections/models/logic/products","Output":"PASS\n"}
+{"Time":"2018-10-19T11:32:01.100873894+07:00","Action":"output","Package":"collections/models/logic/products","Output":"ok  \tcollections/models/logic/products\t(cached)\n"}
+{"Time":"2018-10-19T11:32:01.100882301+07:00","Action":"pass","Package":"collections/models/logic/products","Elapsed":0.031}
+{"Time":"2018-10-19T11:33:04.486616956+07:00","Action":"run","Package":"collections/models/logic/products","Test":"TestInsertProduct_Success"}
+{"Time":"2018-10-19T11:33:04.486725669+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestInsertProduct_Success","Output":"=== RUN   TestInsertProduct_Success\n"}
+{"Time":"2018-10-19T11:33:04.486739276+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestInsertProduct_Success","Output":"\n"}
+{"Time":"2018-10-19T11:33:04.486746787+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestInsertProduct_Success","Output":"  TestInsertProduct_Success \n"}
+{"Time":"2018-10-19T11:33:04.48675525+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestInsertProduct_Success","Output":"    Should Success \u001b[32m✔\u001b[0m\n"}
+{"Time":"2018-10-19T11:33:04.486768634+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestInsertProduct_Success","Output":"\n"}
+{"Time":"2018-10-19T11:33:04.486774929+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestInsertProduct_Success","Output":"\u001b[31m\u001b[0m\u001b[33m\u001b[0m\u001b[32m\n"}
+{"Time":"2018-10-19T11:33:04.486782857+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestInsertProduct_Success","Output":"1 total assertion\u001b[0m\n"}
+{"Time":"2018-10-19T11:33:04.486788687+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestInsertProduct_Success","Output":"\n"}
+{"Time":"2018-10-19T11:33:04.486798615+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestInsertProduct_Success","Output":"--- PASS: TestInsertProduct_Success (0.00s)\n"}
+{"Time":"2018-10-19T11:33:04.486805401+07:00","Action":"pass","Package":"collections/models/logic/products","Test":"TestInsertProduct_Success","Elapsed":0}
+{"Time":"2018-10-19T11:33:04.486813175+07:00","Action":"run","Package":"collections/models/logic/products","Test":"TestInsertProduct_Error"}
+{"Time":"2018-10-19T11:33:04.486819343+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestInsertProduct_Error","Output":"=== RUN   TestInsertProduct_Error\n"}
+{"Time":"2018-10-19T11:33:04.486931805+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestInsertProduct_Error","Output":"2018/10/19 11:33:04.486 \u001b[1;33m[W]  InsertProduct @products fail to get product \u001b[0m\n"}
+{"Time":"2018-10-19T11:33:04.486946413+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestInsertProduct_Error","Output":"\n"}
+{"Time":"2018-10-19T11:33:04.486953835+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestInsertProduct_Error","Output":"  TestInsertProduct_Error \n"}
+{"Time":"2018-10-19T11:33:04.486960652+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestInsertProduct_Error","Output":"    Should Success \u001b[32m✔\u001b[0m\n"}
+{"Time":"2018-10-19T11:33:04.486967485+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestInsertProduct_Error","Output":"\n"}
+{"Time":"2018-10-19T11:33:04.486975596+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestInsertProduct_Error","Output":"\u001b[31m\u001b[0m\u001b[33m\u001b[0m\u001b[32m\n"}
+{"Time":"2018-10-19T11:33:04.486982495+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestInsertProduct_Error","Output":"2 total assertions\u001b[0m\n"}
+{"Time":"2018-10-19T11:33:04.486988832+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestInsertProduct_Error","Output":"\n"}
+{"Time":"2018-10-19T11:33:04.486996897+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestInsertProduct_Error","Output":"--- PASS: TestInsertProduct_Error (0.00s)\n"}
+{"Time":"2018-10-19T11:33:04.487004787+07:00","Action":"pass","Package":"collections/models/logic/products","Test":"TestInsertProduct_Error","Elapsed":0}
+{"Time":"2018-10-19T11:33:04.48701206+07:00","Action":"run","Package":"collections/models/logic/products","Test":"TestGetAllProduct_Success"}
+{"Time":"2018-10-19T11:33:04.487018239+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetAllProduct_Success","Output":"=== RUN   TestGetAllProduct_Success\n"}
+{"Time":"2018-10-19T11:33:04.48702797+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetAllProduct_Success","Output":"\n"}
+{"Time":"2018-10-19T11:33:04.487036522+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetAllProduct_Success","Output":"  TestGetAllProduct_Success \n"}
+{"Time":"2018-10-19T11:33:04.487064106+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetAllProduct_Success","Output":"    Should Success \u001b[32m✔\u001b[0m\u001b[32m✔\u001b[0m\n"}
+{"Time":"2018-10-19T11:33:04.487073661+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetAllProduct_Success","Output":"\n"}
+{"Time":"2018-10-19T11:33:04.487082382+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetAllProduct_Success","Output":"\u001b[31m\u001b[0m\u001b[33m\u001b[0m\u001b[32m\n"}
+{"Time":"2018-10-19T11:33:04.487089881+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetAllProduct_Success","Output":"4 total assertions\u001b[0m\n"}
+{"Time":"2018-10-19T11:33:04.487096591+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetAllProduct_Success","Output":"\n"}
+{"Time":"2018-10-19T11:33:04.48710458+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetAllProduct_Success","Output":"--- PASS: TestGetAllProduct_Success (0.00s)\n"}
+{"Time":"2018-10-19T11:33:04.487113766+07:00","Action":"pass","Package":"collections/models/logic/products","Test":"TestGetAllProduct_Success","Elapsed":0}
+{"Time":"2018-10-19T11:33:04.487120923+07:00","Action":"run","Package":"collections/models/logic/products","Test":"TestGetProductList_Success"}
+{"Time":"2018-10-19T11:33:04.48712712+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetProductList_Success","Output":"=== RUN   TestGetProductList_Success\n"}
+{"Time":"2018-10-19T11:33:04.487135587+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetProductList_Success","Output":"2018/10/19 11:33:04.487 \u001b[1;33m[W]  {[{01  0 0 0 }]} \u001b[0m\n"}
+{"Time":"2018-10-19T11:33:04.487163496+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetProductList_Success","Output":"\n"}
+{"Time":"2018-10-19T11:33:04.487189072+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetProductList_Success","Output":"  TestGetProductList_Success \n"}
+{"Time":"2018-10-19T11:33:04.487205622+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetProductList_Success","Output":"    Should Success \u001b[32m✔\u001b[0m\u001b[32m✔\u001b[0m\n"}
+{"Time":"2018-10-19T11:33:04.487213485+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetProductList_Success","Output":"\n"}
+{"Time":"2018-10-19T11:33:04.487221601+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetProductList_Success","Output":"\u001b[31m\u001b[0m\u001b[33m\u001b[0m\u001b[32m\n"}
+{"Time":"2018-10-19T11:33:04.487228947+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetProductList_Success","Output":"6 total assertions\u001b[0m\n"}
+{"Time":"2018-10-19T11:33:04.487236379+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetProductList_Success","Output":"\n"}
+{"Time":"2018-10-19T11:33:04.487244021+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetProductList_Success","Output":"--- PASS: TestGetProductList_Success (0.00s)\n"}
+{"Time":"2018-10-19T11:33:04.487252846+07:00","Action":"pass","Package":"collections/models/logic/products","Test":"TestGetProductList_Success","Elapsed":0}
+{"Time":"2018-10-19T11:33:04.487259709+07:00","Action":"run","Package":"collections/models/logic/products","Test":"TestGetProductList_Error"}
+{"Time":"2018-10-19T11:33:04.487266099+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetProductList_Error","Output":"=== RUN   TestGetProductList_Error\n"}
+{"Time":"2018-10-19T11:33:04.487276293+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetProductList_Error","Output":"\n"}
+{"Time":"2018-10-19T11:33:04.487299724+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetProductList_Error","Output":"  TestGetProductList_Error \n"}
+{"Time":"2018-10-19T11:33:04.487330603+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetProductList_Error","Output":"    Should Success \u001b[32m✔\u001b[0m\u001b[32m✔\u001b[0m\n"}
+{"Time":"2018-10-19T11:33:04.487339219+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetProductList_Error","Output":"\n"}
+{"Time":"2018-10-19T11:33:04.487347492+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetProductList_Error","Output":"\u001b[31m\u001b[0m\u001b[33m\u001b[0m\u001b[32m\n"}
+{"Time":"2018-10-19T11:33:04.487354625+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetProductList_Error","Output":"8 total assertions\u001b[0m\n"}
+{"Time":"2018-10-19T11:33:04.487361235+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetProductList_Error","Output":"\n"}
+{"Time":"2018-10-19T11:33:04.487368953+07:00","Action":"output","Package":"collections/models/logic/products","Test":"TestGetProductList_Error","Output":"--- PASS: TestGetProductList_Error (0.00s)\n"}
+{"Time":"2018-10-19T11:33:04.487377231+07:00","Action":"pass","Package":"collections/models/logic/products","Test":"TestGetProductList_Error","Elapsed":0}
+{"Time":"2018-10-19T11:33:04.48739914+07:00","Action":"output","Package":"collections/models/logic/products","Output":"PASS\n"}
+{"Time":"2018-10-19T11:33:04.488617964+07:00","Action":"output","Package":"collections/models/logic/products","Output":"ok  \tcollections/models/logic/products\t0.006s\n"}
+{"Time":"2018-10-19T11:33:04.488999775+07:00","Action":"pass","Package":"collections/models/logic/products","Elapsed":0.007}

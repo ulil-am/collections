@@ -1,7 +1,7 @@
 package structs
 
 import (
-	c "medium/helper/constant"
+	c "collections/helper/constant"
 	"log"
 	"reflect"
 	"strings"

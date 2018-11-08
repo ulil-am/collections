@@ -1,7 +1,7 @@
 package genappid
 
 import (
-	dbStruct "medium/structs/db"
+	dbStruct "collections/structs/db"
 )
 
 // IGenappid - Genappid Logic Interface

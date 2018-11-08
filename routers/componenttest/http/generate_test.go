@@ -1,9 +1,9 @@
 package http
 
 import (
-	"medium/routers/componenttest"
-	"medium/structs"
-	httpStructs "medium/structs/api/http"
+	"collections/routers/componenttest"
+	"collections/structs"
+	httpStructs "collections/structs/api/http"
 	"encoding/json"
 	"testing"
 

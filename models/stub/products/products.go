@@ -1,8 +1,8 @@
 package products
 
 import (
-	"medium/helper/constant/tablename"
-	dbStruct "medium/structs/db"
+	"collections/helper/constant/tablename"
+	dbStruct "collections/structs/db"
 	"encoding/json"
 	"errors"
 )

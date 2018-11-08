@@ -1,9 +1,9 @@
 package products
 
 import (
-	"medium/structs"
-	structsAPI "medium/structs/api/http"
-	lStruct "medium/structs/logic"
+	"collections/structs"
+	structsAPI "collections/structs/api/http"
+	lStruct "collections/structs/logic"
 	"testing"
 
 	. "github.com/smartystreets/goconvey/convey"

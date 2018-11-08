@@ -2,8 +2,8 @@ package http
 
 import (
 	"encoding/json"
-	"medium/helper"
-	"medium/structs"
+	"collections/helper"
+	"collections/structs"
 
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/context"

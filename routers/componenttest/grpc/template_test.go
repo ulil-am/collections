@@ -1,12 +1,12 @@
 package grpc
 
 import (
-	"medium/helper"
-	"medium/helper/timetn"
-	"medium/structs"
-	structsAPI "medium/structs/api"
-	structsRPC "medium/structs/api/grpc"
-	"medium/thirdparty/rpc"
+	"collections/helper"
+	"collections/helper/timetn"
+	"collections/structs"
+	structsAPI "collections/structs/api"
+	structsRPC "collections/structs/api/grpc"
+	"collections/thirdparty/rpc"
 	"encoding/json"
 	"testing"
 

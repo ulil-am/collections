@@ -1,10 +1,10 @@
 package grpc
 
 import (
-	ctrl "medium/controllers/grpc"
-	"medium/helper/constant"
-	pb "medium/proto"
-	"medium/structs"
+	ctrl "collections/controllers/grpc"
+	"collections/helper/constant"
+	pb "collections/proto"
+	"collections/structs"
 )
 
 var (

@@ -1,4 +1,4 @@
-# medium-service
+# collections-service
 
 #### dbstructgen to generate structs from postgres DB name tablename
 it will created  in

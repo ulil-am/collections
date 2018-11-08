@@ -1,10 +1,10 @@
 package grpc
 
 import (
-	"medium/structs"
+	"collections/structs"
 	"time"
 
-	structsAPI "medium/structs/api"
+	structsAPI "collections/structs/api"
 )
 
 type (

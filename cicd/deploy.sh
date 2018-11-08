@@ -9,12 +9,12 @@ export DOCKER_USERNAME=fakename
 export DOCKER_PASSWORD=fakename
 export VERSION_IMG=v1stag
 export VERSION_MINOR_IMG=0
-export OURAPPNAME=medium
-export GOPATH=/var/lib/jenkins/workspace/Medium
+export OURAPPNAME=collections
+export GOPATH=/var/lib/jenkins/workspace/collections
 
 # deploy staging
 kubectl get pod
-cd $GOPATH/src/medium/
+cd $GOPATH/src/collections/
 chmod +x ./deploy.sh
 whoami
 ./deploy.sh $DOCKER_USERNAME $DOCKER_PASSWORD $VERSION_IMG $BUILD_ID $OURAPPNAME $VERSION_MINOR_IMG $NODE_PORT $KUBE_PORT $HOST_PORT_TEST $GRPC_PORT

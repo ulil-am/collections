@@ -1,11 +1,11 @@
 package products
 
 import (
-	"medium/helper"
-	"medium/structs"
-	structsAPI "medium/structs/api/http"
-	dbStruct "medium/structs/db"
-	lStruct "medium/structs/logic"
+	"collections/helper"
+	"collections/structs"
+	structsAPI "collections/structs/api/http"
+	dbStruct "collections/structs/db"
+	lStruct "collections/structs/logic"
 )
 
 // GetAllProduct - GetAllProduct

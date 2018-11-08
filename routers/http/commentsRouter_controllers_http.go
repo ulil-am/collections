@@ -7,15 +7,7 @@ import (
 
 func init() {
 
-	beego.GlobalControllerRouter["medium/controllers/http:GenerateController"] = append(beego.GlobalControllerRouter["medium/controllers/http:GenerateController"],
-		beego.ControllerComments{
-			Method: "LoanAppID",
-			Router: `/loan-app-id`,
-			AllowHTTPMethods: []string{"post"},
-			MethodParams: param.Make(),
-			Params: nil})
-
-	beego.GlobalControllerRouter["medium/controllers/http:ProductsController"] = append(beego.GlobalControllerRouter["medium/controllers/http:ProductsController"],
+	beego.GlobalControllerRouter["collections/controllers/http:CardsController"] = append(beego.GlobalControllerRouter["collections/controllers/http:CardsController"],
 		beego.ControllerComments{
 			Method: "Post",
 			Router: `/`,
@@ -23,7 +15,23 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["medium/controllers/http:ProductsController"] = append(beego.GlobalControllerRouter["medium/controllers/http:ProductsController"],
+	beego.GlobalControllerRouter["collections/controllers/http:GenerateController"] = append(beego.GlobalControllerRouter["collections/controllers/http:GenerateController"],
+		beego.ControllerComments{
+			Method: "LoanAppID",
+			Router: `/loan-app-id`,
+			AllowHTTPMethods: []string{"post"},
+			MethodParams: param.Make(),
+			Params: nil})
+
+	beego.GlobalControllerRouter["collections/controllers/http:ProductsController"] = append(beego.GlobalControllerRouter["collections/controllers/http:ProductsController"],
+		beego.ControllerComments{
+			Method: "Post",
+			Router: `/`,
+			AllowHTTPMethods: []string{"post"},
+			MethodParams: param.Make(),
+			Params: nil})
+
+	beego.GlobalControllerRouter["collections/controllers/http:ProductsController"] = append(beego.GlobalControllerRouter["collections/controllers/http:ProductsController"],
 		beego.ControllerComments{
 			Method: "GetProductList",
 			Router: `/`,
@@ -31,7 +39,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["medium/controllers/http:ProductsController"] = append(beego.GlobalControllerRouter["medium/controllers/http:ProductsController"],
+	beego.GlobalControllerRouter["collections/controllers/http:ProductsController"] = append(beego.GlobalControllerRouter["collections/controllers/http:ProductsController"],
 		beego.ControllerComments{
 			Method: "GetOne",
 			Router: `/:id`,
@@ -39,7 +47,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["medium/controllers/http:ProductsController"] = append(beego.GlobalControllerRouter["medium/controllers/http:ProductsController"],
+	beego.GlobalControllerRouter["collections/controllers/http:ProductsController"] = append(beego.GlobalControllerRouter["collections/controllers/http:ProductsController"],
 		beego.ControllerComments{
 			Method: "Put",
 			Router: `/:id`,
@@ -47,7 +55,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["medium/controllers/http:ProductsController"] = append(beego.GlobalControllerRouter["medium/controllers/http:ProductsController"],
+	beego.GlobalControllerRouter["collections/controllers/http:ProductsController"] = append(beego.GlobalControllerRouter["collections/controllers/http:ProductsController"],
 		beego.ControllerComments{
 			Method: "Delete",
 			Router: `/:id`,

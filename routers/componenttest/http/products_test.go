@@ -1,10 +1,10 @@
 package http
 
 import (
-	"medium/helper/constant"
-	"medium/routers/componenttest"
-	"medium/structs"
-	httpStructs "medium/structs/api/http"
+	"collections/helper/constant"
+	"collections/routers/componenttest"
+	"collections/structs"
+	httpStructs "collections/structs/api/http"
 	"encoding/json" // "strconv"
 	"testing"
 

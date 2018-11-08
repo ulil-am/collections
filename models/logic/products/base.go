@@ -1,10 +1,10 @@
 package products
 
 import (
-	"medium/helper/constant"
-	iProducts "medium/models/db/interfaces/products"
-	mgProducts "medium/models/db/mongo/products"
-	stProducts "medium/models/stub/products"
+	"collections/helper/constant"
+	iProducts "collections/models/db/interfaces/products"
+	mgProducts "collections/models/db/mongo/products"
+	stProducts "collections/models/stub/products"
 )
 
 var (

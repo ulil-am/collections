@@ -1,7 +1,7 @@
 package timetn
 
 import (
-	"medium/helper/constant"
+	"collections/helper/constant"
 	"strconv"
 	"time"
 

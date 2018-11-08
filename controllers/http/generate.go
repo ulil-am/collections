@@ -1,10 +1,10 @@
 package http
 
 import (
-	"medium/helper"
-	lModelGenAppID "medium/models/logic/genappid"
-	"medium/structs"
-	structsAPI "medium/structs/api/http"
+	"collections/helper"
+	lModelGenAppID "collections/models/logic/genappid"
+	"collections/structs"
+	structsAPI "collections/structs/api/http"
 	"encoding/json"
 
 	"github.com/astaxie/beego"

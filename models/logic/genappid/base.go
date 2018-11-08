@@ -1,10 +1,10 @@
 package genappid
 
 import (
-	"medium/helper/constant"
-	iGenappid "medium/models/db/interfaces/genappid"
-	mgGenappid "medium/models/db/mongo/genappid"
-	stGenappid "medium/models/stub/genappid"
+	"collections/helper/constant"
+	iGenappid "collections/models/db/interfaces/genappid"
+	mgGenappid "collections/models/db/mongo/genappid"
+	stGenappid "collections/models/stub/genappid"
 )
 
 var (

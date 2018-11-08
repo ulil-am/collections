@@ -1,7 +1,7 @@
 package http
 
 import (
-	"medium/routers/componenttest"
+	"collections/routers/componenttest"
 	"strconv"
 
 	"github.com/astaxie/beego"

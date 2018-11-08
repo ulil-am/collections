@@ -1,8 +1,8 @@
 package grpc
 
 import (
-	"medium/helper/constant"
-	"medium/routers/componenttest"
+	"collections/helper/constant"
+	"collections/routers/componenttest"
 	"strconv"
 
 	"github.com/astaxie/beego"
