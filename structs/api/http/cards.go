@@ -15,7 +15,8 @@ type (
 
 	// ResInquiryCards ...
 	ResInquiryCards struct {
-		Cards []Cards `json:"cards"`
+		UserName string  `json:"user_name"`
+		Cards    []Cards `json:"cards"`
 	}
 
 	//ReqCreateCards Struct for insert new card request
@@ -24,6 +25,7 @@ type (
 		Name       string `json:"name"`
 		ExpiryDate string `json:"expiry_date"`
 		Company    string `json:"company"`
+		UserName   string `json:"user_name"`
 	}
 
 	//Cards Card struct
@@ -40,11 +42,13 @@ type (
 		Name       interface{} `json:"name" type:"string"`
 		ExpiryDate interface{} `json:"expiry_date" type:"string"`
 		Company    interface{} `json:"company" type:"string"`
+		UserName   interface{} `json:"user_name" type:"string"`
 	}
 
 	//RespCreateCards Struct for insert new card request
 	RespCreateCards struct {
-		CardNumber int `json:"card_number"`
+		UserName   string `json:"user_name"`
+		CardNumber int    `json:"card_number"`
 	}
 )
 

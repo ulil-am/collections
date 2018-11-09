@@ -34,14 +34,14 @@ func (d *Cards) GetColl() (sess *mgo.Session, coll *mgo.Collection, err error) {
 
 // Index ...
 func (d *Cards) Index() (err error) {
-	sess, coll, err := db.GetColl(tablename.Cards)
+	sess, coll, err := d.GetColl()
 	defer sess.Close()
 	if err != nil {
 		return
 	}
 
 	index := mgo.Index{
-		Key:        []string{"card_number"},
+		Key:        []string{"card_number", "user_name"},
 		Unique:     true,
 		DropDups:   false,
 		Background: false,
@@ -54,7 +54,7 @@ func (d *Cards) Index() (err error) {
 
 // InsertCards ...
 func (d *Cards) InsertCards(v interface{}) (err error) {
-	sess, coll, err := db.GetColl(tablename.Cards)
+	sess, coll, err := d.GetColl()
 	defer sess.Close()
 	if err != nil {
 		return
@@ -66,7 +66,7 @@ func (d *Cards) InsertCards(v interface{}) (err error) {
 
 // GetCardByCardNumber ...
 func (d *Cards) GetCardByCardNumber(cardNumber int) (rows []structDb.Cards, err error) {
-	sess, coll, err := db.GetColl(tablename.Cards)
+	sess, coll, err := d.GetColl()
 	defer sess.Close()
 	if err != nil {
 		return

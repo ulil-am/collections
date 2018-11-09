@@ -22,7 +22,7 @@ func InsertCards(
 		nmFunc = "Insert new cards"
 	)
 	beego.Info(contextStruct.JobID, nmFunc)
-
+	beego.Debug("req =====>", reqCreateCards)
 	if reqCreateCards.CardNumber == 0 {
 		structs.ErrorCode.CardNumberZero.String(errCode)
 	} else {
@@ -30,12 +30,15 @@ func InsertCards(
 		doc.Company = reqCreateCards.Company
 		doc.ExpiryDate = reqCreateCards.ExpiryDate
 		doc.Name = reqCreateCards.Name
+		doc.UserName = reqCreateCards.UserName
+		beego.Debug("doc =====>", doc)
 		err := DBCards.InsertCards(doc)
 		if err != nil {
 			structs.ErrorCode.DatabaseError.String(errCode, err.Error(), nmFunc)
 			helper.CheckErr(nmFunc+" ", err)
 		}
 		resInsertCard.CardNumber = doc.CardNumber
+		resInsertCard.UserName = doc.UserName
 		return
 	}
 
