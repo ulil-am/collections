@@ -207,7 +207,8 @@ var ErrorCode struct {
 	BranchCodeCantContainLetter Code `code:"0302" case:"Branch Code Contain Letter" msg:"Branch Code must be numeric only"`
 	BranchCodeLength            Code `code:"0303" case:"Branch Code lenght is not 4 char" msg:"Branch Code must be 4 Characters"`
 
-	CardNotExist Code `code:"0401" case:"Card number not found" msg:"Card Number is not exist"`
+	CardNotExist   Code `code:"0401" case:"Card number not found" msg:"Card Number is not exist"`
+	CardNumberZero Code `code:"0402" case:"Card Number == 0" msg:"Card Number must not be zero"`
 	// End Defined Format Error //
 }
 

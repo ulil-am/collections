@@ -8,8 +8,8 @@ import (
 	rpcStructs "collections/structs/api/grpc"
 )
 
-// RPCtrlAcquisition - RPCtrlAcquisition Controllers
-func RPCtrlAcquisition(
+// RPCtrlCollections - RPCtrlCollections Controllers
+func RPCtrlCollections(
 	in *pb.DoReq,
 	errRPCCode *structs.TypeGRPCError,
 	body *[]byte,
@@ -22,7 +22,7 @@ func RPCtrlAcquisition(
 
 	err := json.Unmarshal(in.GetBody(), &req)
 	if err != nil {
-		helper.CheckErr("failed unmarshal @RPCtrlAcquisition", err)
+		helper.CheckErr("failed unmarshal @RPCtrlCollections", err)
 		structs.ErrorCode.UnexpectedError.String(&errRPCCode.Error)
 		return
 	}
@@ -31,7 +31,7 @@ func RPCtrlAcquisition(
 	res.Res = "response"
 	resBy, err := json.Marshal(res)
 	if err != nil {
-		helper.CheckErr("failed marshal &RPCtrlAcquisition", err)
+		helper.CheckErr("failed marshal &RPCtrlCollections", err)
 		structs.ErrorCode.UnexpectedError.String(&errRPCCode.Error)
 		return
 	}

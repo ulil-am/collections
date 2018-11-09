@@ -20,7 +20,7 @@ func TestGenerateSuccess(t *testing.T) {
 	by, _ := json.Marshal(req)
 	res := componenttest.SendHTTP(
 		"POST",
-		host+"/acquisition/v1/generate/loan-app-id",
+		host+"/collections/v1/generate/loan-app-id",
 		by,
 	)
 

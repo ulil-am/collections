@@ -9,6 +9,14 @@ func init() {
 
 	beego.GlobalControllerRouter["collections/controllers/http:CardsController"] = append(beego.GlobalControllerRouter["collections/controllers/http:CardsController"],
 		beego.ControllerComments{
+			Method: "Get",
+			Router: `/`,
+			AllowHTTPMethods: []string{"get"},
+			MethodParams: param.Make(),
+			Params: nil})
+
+	beego.GlobalControllerRouter["collections/controllers/http:CardsController"] = append(beego.GlobalControllerRouter["collections/controllers/http:CardsController"],
+		beego.ControllerComments{
 			Method: "Post",
 			Router: `/`,
 			AllowHTTPMethods: []string{"post"},

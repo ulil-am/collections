@@ -13,7 +13,7 @@ import (
 	. "github.com/smartystreets/goconvey/convey"
 )
 
-func TestAcquisition(t *testing.T) {
+func TestCollections(t *testing.T) {
 	reqID := helper.GenJobID()
 
 	var errorHeader structs.TypeGRPCError
@@ -38,7 +38,7 @@ func TestAcquisition(t *testing.T) {
 	tracer.XReqID = "XReqID"
 
 	resp, err := rpc.SendGRPCComponentTest(
-		prefix+"/acquisition",
+		prefix+"/collections",
 		host,
 		reqBy,
 		headerByte,
@@ -52,7 +52,7 @@ func TestAcquisition(t *testing.T) {
 	var resBody structsRPC.ResTest
 	json.Unmarshal(resp.Body, &resBody)
 
-	Convey("TestAcquisition", t, func() {
+	Convey("TestCollections", t, func() {
 		Convey("Should Success", func() {
 			So(err, ShouldEqual, nil)
 			So(len(resHeader.Error.Error), ShouldEqual, 0)

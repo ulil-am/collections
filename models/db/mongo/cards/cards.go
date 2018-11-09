@@ -65,13 +65,13 @@ func (d *Cards) InsertCards(v interface{}) (err error) {
 }
 
 // GetCardByCardNumber ...
-func (d *Cards) GetCardByCardNumber(cardNumber string) (rows []structDb.Cards, err error) {
+func (d *Cards) GetCardByCardNumber(cardNumber int) (rows []structDb.Cards, err error) {
 	sess, coll, err := db.GetColl(tablename.Cards)
 	defer sess.Close()
 	if err != nil {
 		return
 	}
-	err = coll.Find(bson.M{"card_number": bson.M{"$in": cardNumber}}).All(&rows)
+	err = coll.Find(bson.M{"card_number": cardNumber}).All(&rows)
 
 	return
 }

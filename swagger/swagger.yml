@@ -1,6 +1,6 @@
 swagger: "2.0"
 info: {}
-basePath: /acquisition/v1
+basePath: /collections/v1
 paths:
   /generate/loan-app-id:
     post:

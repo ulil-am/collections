@@ -21,6 +21,13 @@ func (c *CardsController) URLMapping() {
 	c.Mapping("Get", c.Get)
 }
 
+// Get ...
+// @Title GetCard
+// @Description get Cards by card_number
+// @Param	card_number				query	int	1	"Card Number"	"?card_number=1"
+// @Success 200 {object} structAPI.ReqInquiryCards
+// @Failure 403 :card_number is empty
+// @router / [get]
 func (c *CardsController) Get() {
 	errCode := make([]structs.TypeError, 0)
 
@@ -29,8 +36,9 @@ func (c *CardsController) Get() {
 		res structAPI.ResInquiryCards
 	)
 
-	req.CardNumber = c.Ctx.Request.URL.Query()["card_number"]
-	res = logicCards.GetCardInfo(req, &errCode)
+	req.CardNumber = c.Ctx.Request.URL.Query()["card_number"][0]
+	contextStruct := helper.ContextStruct(c.Ctx)
+	res = logicCards.GetCardInfo(contextStruct, req, &errCode)
 
 	SendOutput(c.Ctx, res, errCode)
 }
@@ -39,7 +47,7 @@ func (c *CardsController) Get() {
 // @Title Create
 // @Description Insert new cards
 // @Param	body				body 	structAPI.ReqCreateCards	true	"Request Body of Create Cards"
-// @Success 201 {object} models.Ecards
+// @Success 201 {object} models.Cards
 // @Failure 403 body is empty
 // @Accept json
 // @router / [post]
@@ -49,6 +57,7 @@ func (c *CardsController) Post() {
 	var (
 		reqInterface structAPI.CreateCardsInterface
 		req          structAPI.ReqCreateCards
+		res          structAPI.RespCreateCards
 	)
 	rqBodyByte := helper.GetRqBodyRev(c.Ctx, &errCode)
 	if len(errCode) > 0 {
@@ -68,13 +77,13 @@ func (c *CardsController) Post() {
 		SendOutput(c.Ctx, c.Data["json"], errCode)
 		return
 	}
-
-	logicCards.InsertCards(req, &errCode)
+	contextStruct := helper.ContextStruct(c.Ctx)
+	res = logicCards.InsertCards(contextStruct, req, &errCode)
 	if len(errCode) > 0 {
 		SendOutput(c.Ctx, c.Data["json"], errCode)
 		return
 	}
 
-	SendOutput(c.Ctx, c.Data["json"], errCode)
+	SendOutput(c.Ctx, res, errCode)
 
 }

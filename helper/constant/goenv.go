@@ -5,7 +5,7 @@ var (
 	DEVCI         = "devci"
 	KUBE          = "kube"
 	DOMAIN        = "01"
-	DOMAINNAME    = "acquisition"
+	DOMAINNAME    = "collections"
 	SVC           = "01"
 	PREFIXERRCODE = "E" + DOMAIN + SVC
 )

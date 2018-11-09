@@ -3,7 +3,7 @@
     "info": {
         "contact": {}
     },
-    "basePath": "/acquisition/v1",
+    "basePath": "/collections/v1",
     "paths": {
         "/generate/loan-app-id": {
             "post": {
