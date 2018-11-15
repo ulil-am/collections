@@ -7,4 +7,9 @@ type (
 		Month      int    `bson:"month"`
 		Counter    int    `bson:"counter"`
 	}
+
+	// CounterUser - Counter DB
+	CounterUser struct {
+		Counter int `bson:"counter"`
+	}
 )

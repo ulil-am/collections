@@ -34,6 +34,7 @@ type (
 		Name       string `json:"name"`
 		ExpiryDate string `json:"expiry_date"`
 		Company    string `json:"company"`
+		// UserName   string `json:"user_name"`
 	}
 
 	// CreateCardsInterface ...

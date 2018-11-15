@@ -64,7 +64,7 @@ func (c *CardsController) Post() {
 		SendOutput(c.Ctx, c.Data["json"], errCode)
 		return
 	}
-
+	reqInterface.UserName = c.Ctx.Input.Param(":user_name")
 	err := json.Unmarshal(rqBodyByte, &reqInterface)
 	if err != nil {
 		structs.ErrorCode.UnexpectedError.String(&errCode)
