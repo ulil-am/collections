@@ -34,14 +34,14 @@ func (d *Counter) GetColl() (sess *mgo.Session, coll *mgo.Collection, err error)
 
 // Index ...
 func (d *Counter) Index() (err error) {
-	sess, coll, err := db.GetColl(tablename.Counter)
+	sess, coll, err := db.GetColl(tablename.CounterUser)
 	defer sess.Close()
 	if err != nil {
 		return
 	}
 
 	index := mgo.Index{
-		Key:        []string{"counter"},
+		Key:        []string{"user_counter"},
 		Unique:     true,
 		DropDups:   false,
 		Background: false,
@@ -59,7 +59,7 @@ func (d *Counter) GetInc(row structDb.CounterUser) (
 	counter int,
 	err error,
 ) {
-	sess, coll, err := db.GetColl(tablename.Counter)
+	sess, coll, err := db.GetColl(tablename.CounterUser)
 	defer sess.Close()
 	if err != nil {
 		return
@@ -70,16 +70,16 @@ func (d *Counter) GetInc(row structDb.CounterUser) (
 		ReturnNew: true,
 	}
 
-	_, err = coll.Find(bson.M{"counter": row.Counter}).Apply(change, &row)
+	_, err = coll.Find(bson.M{"user_counter": row.UserCounter}).Apply(change, &row)
 	counter = row.Counter
+	// beego.Debug("info after inc", info)
 	beego.Debug("counter after inc", counter)
-
 	return
 }
 
 // InsertCounter - InsertCounter
 func (d *Counter) InsertCounter(v interface{}) (err error) {
-	sess, coll, err := db.GetColl(tablename.Counter)
+	sess, coll, err := db.GetColl(tablename.CounterUser)
 	defer sess.Close()
 	if err != nil {
 		return

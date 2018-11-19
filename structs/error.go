@@ -209,6 +209,8 @@ var ErrorCode struct {
 
 	CardNotExist   Code `code:"0401" case:"Card number not found" msg:"Card Number is not exist"`
 	CardNumberZero Code `code:"0402" case:"Card Number == 0" msg:"Card Number must not be zero"`
+
+	UserNameAlreadyExist Code `code:"0403" case:"Duplicate User" msg:"This User Name Already Taken"`
 	// End Defined Format Error //
 }
 

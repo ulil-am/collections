@@ -11,6 +11,7 @@ type (
 	// ReqInquiryCards ...
 	ReqInquiryCards struct {
 		CardNumber string `json:"card_number" example:"123456789012345"`
+		UserName   string `json:"user_name"`
 	}
 
 	// ResInquiryCards ...
@@ -26,6 +27,7 @@ type (
 		ExpiryDate string `json:"expiry_date"`
 		Company    string `json:"company"`
 		UserName   string `json:"user_name"`
+		// UserID     string `json:"user_id"`
 	}
 
 	//Cards Card struct
@@ -35,6 +37,7 @@ type (
 		ExpiryDate string `json:"expiry_date"`
 		Company    string `json:"company"`
 		// UserName   string `json:"user_name"`
+		UserID string `json:"user_id"`
 	}
 
 	// CreateCardsInterface ...

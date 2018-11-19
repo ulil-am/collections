@@ -10,6 +10,8 @@ import (
 	"encoding/hex"
 	"io"
 
+	"errors"
+
 	"github.com/astaxie/beego"
 )
 
@@ -25,7 +27,17 @@ func CreateUser(
 	)
 	beego.Info(contextStruct.JobID, nmFunc)
 	// beego.Debug("req =====>", reqCreateCards)
+
+	// Check duplicate user ID
+
+	err2 := checkDuplicateUserName(reqCreateUser, errCode)
+	if err2 != nil {
+		structs.ErrorCode.UserNameAlreadyExist.String(errCode)
+		return
+	}
 	counter := getInc(reqCreateUser, errCode)
+
+	beego.Debug("errAftergetInc =======>>>>>>", errCode)
 
 	hash := md5.New()
 	io.WriteString(hash, reqCreateUser.Password)
@@ -41,11 +53,44 @@ func CreateUser(
 	beego.Debug("doc ======> ", doc)
 
 	err := DBUser.CreateUser(doc)
+	beego.Debug("err after insert ========> ", err)
 	if err != nil {
 		structs.ErrorCode.DatabaseError.String(errCode, nmFunc, logicName)
 	}
 
+	resCreateUser.UserID = doc.UserID
 	resCreateUser.UserName = doc.UserName
+	return
+}
+
+// GetUser ...
+func GetUser(
+	contextStruct structLogic.ContextStruct,
+	reqInqUser structAPI.ReqInquiryUser,
+	errCode *[]structs.TypeError,
+) (resInqUser structAPI.ResInquiryUser) {
+	var (
+		doc      string
+		nmFunc   = "Get user details"
+		dataUser structDb.User
+		err      error
+	)
+	beego.Info(contextStruct.JobID, nmFunc)
+
+	doc = reqInqUser.UserName
+
+	beego.Debug("doc ======> ", doc)
+
+	dataUser, err = DBUser.GetUserByUserName(doc)
+	beego.Debug("err after inq ========> ", err)
+	if err != nil {
+		structs.ErrorCode.DatabaseError.String(errCode, nmFunc, logicName)
+	}
+
+	resInqUser.UserName = dataUser.UserName
+	resInqUser.UserID = dataUser.UserID
+	resInqUser.Email = dataUser.Email
+
 	return
 }
 
@@ -55,9 +100,11 @@ func getInc(
 ) (counterID int) {
 	var row structDb.CounterUser
 	row.Counter = 0
+	row.UserCounter = "card_user"
 	saveToCounterIfNotExist(row)
 
 	counter, err := DBCounter.GetInc(row)
+	beego.Debug("err after GetInc to DB ========> ", err)
 	if err != nil {
 		structs.ErrorCode.DatabaseError.String(errCode, err.Error())
 	}
@@ -71,4 +118,23 @@ func saveToCounterIfNotExist(
 ) {
 	err := DBCounter.InsertCounter(row)
 	helper.CheckErr("data already exist", err)
+}
+
+func checkDuplicateUserName(
+	reqCreateUser structAPI.ReqCreateUser,
+	errCode *[]structs.TypeError,
+) (err error) {
+	var (
+		row  structDb.User
+		err2 error
+	)
+	row, err2 = DBUser.GetUserByUserName(reqCreateUser.UserName)
+
+	if err2 == nil {
+		if row.UserName == reqCreateUser.UserName {
+			err = errors.New("Username Already Exist")
+		}
+	}
+
+	return
 }

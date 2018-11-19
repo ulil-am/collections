@@ -36,6 +36,18 @@ type (
 		Password interface{} `json:"password" type:"string"`
 		// UserID int `json:"user_id"`
 	}
+
+	// ReqInquiryUser ...
+	ReqInquiryUser struct {
+		UserName string `json:"user_name"`
+	}
+
+	// ResInquiryUser ...
+	ResInquiryUser struct {
+		UserName string `json:"user_name"`
+		Email    string `json:"email"`
+		UserID   int    `json:"user_id"`
+	}
 )
 
 // ValidateRequest ...

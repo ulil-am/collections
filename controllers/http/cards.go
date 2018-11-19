@@ -36,6 +36,8 @@ func (c *CardsController) Get() {
 		res structAPI.ResInquiryCards
 	)
 
+	req.UserName = c.Ctx.Input.Param(":user_name")
+
 	req.CardNumber = c.Ctx.Request.URL.Query()["card_number"][0]
 	contextStruct := helper.ContextStruct(c.Ctx)
 	res = logicCards.GetCardInfo(contextStruct, req, &errCode)

@@ -6,5 +6,5 @@ type Cards struct {
 	Name       string `bson:"name"`
 	ExpiryDate string `bson:"expiry_date"`
 	Company    string `bson:"company"`
-	UserName   string `bson:"user_name"`
+	UserID     int    `bson:"user_id"`
 }

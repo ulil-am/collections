@@ -35,13 +35,9 @@ func Router() {
 				&ctrl.ProductsController{},
 			),
 		),
-		beego.NSNamespace("/user/create",
-			beego.NSInclude(
-				&ctrl.UserController{},
-			),
-		),
-		// With user_name
 
+		// With user_name
+		// Cards Section
 		beego.NSNamespace("/user/:user_name",
 			beego.NSNamespace("/cards",
 				beego.NSInclude(
@@ -55,11 +51,18 @@ func Router() {
 			),
 		),
 
-		// beego.NSNamespace("/cards",
-		// 	beego.NSInclude(
-		// 		&ctrl.CardsController{},
-		// 	),
-		// ),
+		// User Section
+		beego.NSNamespace("/user",
+			beego.NSInclude(
+				&ctrl.UserController{},
+			),
+			beego.NSNamespace("/create",
+				beego.NSInclude(
+					&ctrl.UserController{},
+				),
+			),
+		),
+
 		/*:ENDHTTP*/
 	)
 

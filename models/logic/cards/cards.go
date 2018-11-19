@@ -26,11 +26,16 @@ func InsertCards(
 	if reqCreateCards.CardNumber == 0 {
 		structs.ErrorCode.CardNumberZero.String(errCode)
 	} else {
+
+		// Get User ID
+
+		userID := getUserID(reqCreateCards, errCode)
+
 		doc.CardNumber = reqCreateCards.CardNumber
 		doc.Company = reqCreateCards.Company
 		doc.ExpiryDate = reqCreateCards.ExpiryDate
 		doc.Name = reqCreateCards.Name
-		doc.UserName = reqCreateCards.UserName
+		doc.UserID = userID
 		beego.Debug("doc =====>", doc)
 		err := DBCards.InsertCards(doc)
 		if err != nil {
@@ -38,7 +43,7 @@ func InsertCards(
 			helper.CheckErr(nmFunc+" ", err)
 		}
 		resInsertCard.CardNumber = doc.CardNumber
-		resInsertCard.UserName = doc.UserName
+		resInsertCard.UserName = reqCreateCards.UserName
 		return
 	}
 
@@ -57,6 +62,15 @@ func GetCardInfo(
 		err    error
 	)
 	beego.Info(contextStruct.JobID, nmFunc)
+
+	// get userID
+	userID := getUserID(reqInquiryCards, errCode)
+	if len(reqInquiryCards.CardNumber) == 0 {
+		rows = GetAllCards(userID, errCode)
+		if len(*errCode) != 0 {
+			return
+		}
+	}
 
 	cardNumber, errConv := strconv.Atoi(reqInquiryCards.CardNumber)
 	if errConv != nil {
@@ -92,4 +106,32 @@ func GetCardInfo(
 
 	return
 
+}
+
+func GetAllCards(u int, errCode *[]structs.TypeError) (rows []structDb.Cards) {
+	rows, err := DBCards.GetAllCards(u)
+	if err != nil {
+		structs.ErrorCode.DatabaseError.String(errCode, err.Error(), "Get All Cards", logicName)
+	}
+
+	return
+}
+
+func getUserID(
+	reqCreateUser structAPI.ReqCreateCards,
+	errCode *[]structs.TypeError,
+) (userID int) {
+	var (
+		row  structDb.User
+		err2 error
+	)
+	row, err2 = DBUser.GetUserByUserName(reqCreateUser.UserName)
+
+	if err2 != nil {
+		structs.ErrorCode.DatabaseError.String(errCode, err2.Error())
+	}
+
+	userID = row.UserID
+
+	return
 }

@@ -10,6 +10,7 @@ type (
 
 	// CounterUser - Counter DB
 	CounterUser struct {
-		Counter int `bson:"counter"`
+		Counter     int    `bson:"counter"`
+		UserCounter string `bson:"user_counter"`
 	}
 )
