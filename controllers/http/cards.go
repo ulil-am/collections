@@ -24,7 +24,7 @@ func (c *CardsController) URLMapping() {
 // Get ...
 // @Title GetCard
 // @Description get Cards by card_number
-// @Param	card_number				query	int	1	"Card Number"	"?card_number=1"
+// @Param	card_number				query 	string	"123111"	"Card Number"	"?card_number=123111"
 // @Success 200 {object} structAPI.ReqInquiryCards
 // @Failure 403 :card_number is empty
 // @router / [get]
@@ -37,8 +37,9 @@ func (c *CardsController) Get() {
 	)
 
 	req.UserName = c.Ctx.Input.Param(":user_name")
+	// req.CardNumber = c.Ctx.Input.Param(":card_number")
+	req.CardNumber = c.Ctx.Request.URL.Query()["card_number"]
 
-	req.CardNumber = c.Ctx.Request.URL.Query()["card_number"][0]
 	contextStruct := helper.ContextStruct(c.Ctx)
 	res = logicCards.GetCardInfo(contextStruct, req, &errCode)
 

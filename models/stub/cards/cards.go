@@ -34,7 +34,7 @@ func (d *Cards) InsertCards(v interface{}) (err error) {
 }
 
 // GetCardByCardNumber ...
-func (d *Cards) GetCardByCardNumber(cardNumber int) (rows []structDb.Cards, err error) {
+func (d *Cards) GetCardByCardNumber(cardNumber int, userID int) (rows []structDb.Cards, err error) {
 	var row structDb.Cards
 
 	if cardNumber == 0 {
@@ -46,6 +46,32 @@ func (d *Cards) GetCardByCardNumber(cardNumber int) (rows []structDb.Cards, err 
 	row.Company = "TN"
 	row.ExpiryDate = "2018/11/11"
 	row.Name = "Akira Kaido"
+
+	rows = append(rows, row)
+	return
+}
+
+// GetAllCards ...
+func (d *Cards) GetAllCards(userID int) (rows []structDb.Cards, err error) {
+	var row structDb.Cards
+
+	if userID == 0 {
+		err = errors.New("user is not exists")
+	}
+
+	cardNumber := []int{21313111, 4123111}
+	company := []string{"TN", "TN"}
+	expiryDate := []string{"2018/11/11", "2018/11/11"}
+	name := []string{"Akira Kaido", "Akira Kaido"}
+
+	for i := 0; i < 2; i++ {
+		row = structDb.Cards{
+			CardNumber: cardNumber[i],
+			Company:    company[i],
+			ExpiryDate: expiryDate[i],
+			Name:       name[i],
+		}
+	}
 
 	rows = append(rows, row)
 	return

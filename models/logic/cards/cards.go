@@ -29,7 +29,7 @@ func InsertCards(
 
 		// Get User ID
 
-		userID := getUserID(reqCreateCards, errCode)
+		userID := getUserID(reqCreateCards.UserName, errCode)
 
 		doc.CardNumber = reqCreateCards.CardNumber
 		doc.Company = reqCreateCards.Company
@@ -64,38 +64,37 @@ func GetCardInfo(
 	beego.Info(contextStruct.JobID, nmFunc)
 
 	// get userID
-	userID := getUserID(reqInquiryCards, errCode)
+	userID := getUserID(reqInquiryCards.UserName, errCode)
 	if len(reqInquiryCards.CardNumber) == 0 {
 		rows = GetAllCards(userID, errCode)
 		if len(*errCode) != 0 {
 			return
 		}
+	} else {
+		cardNumber, errConv := strconv.Atoi(reqInquiryCards.CardNumber[0])
+		if errConv != nil {
+			structs.ErrorCode.MissingField.String(errCode, errConv.Error())
+			return
+		}
+		rows, err = DBCards.GetCardByCardNumber(cardNumber, userID)
+		if err != nil {
+			structs.ErrorCode.DatabaseError.String(errCode, err.Error(), nmFunc, logicName)
+			return
+		}
+
+		if len(rows) == 0 {
+			structs.ErrorCode.CardNotExist.String(errCode, nmFunc, logicName)
+			return
+		}
 	}
 
-	cardNumber, errConv := strconv.Atoi(reqInquiryCards.CardNumber)
-	if errConv != nil {
-		structs.ErrorCode.MissingField.String(errCode, errConv.Error())
-		return
-	}
-
-	if cardNumber == 0 {
-		structs.ErrorCode.CardNumberZero.String(errCode, nmFunc)
-		return
-	}
-
-	rows, err = DBCards.GetCardByCardNumber(cardNumber)
-	if err != nil {
-		structs.ErrorCode.DatabaseError.String(errCode, err.Error(), nmFunc, logicName)
-		return
-	}
-
-	if len(rows) == 0 {
-		structs.ErrorCode.CardNotExist.String(errCode, nmFunc, logicName)
-		return
-	}
-
+	// if cardNumber == 0 {
+	// 	structs.ErrorCode.CardNumberZero.String(errCode, nmFunc)
+	// 	return
+	// }
+	resInquiryCards.UserName = reqInquiryCards.UserName
 	for _, val := range rows {
-		cards := structAPI.Cards{
+		cards := structAPI.CardsResponse{
 			CardNumber: val.CardNumber,
 			ExpiryDate: val.ExpiryDate,
 			Company:    val.Company,
@@ -108,6 +107,7 @@ func GetCardInfo(
 
 }
 
+// GetAllCards ...
 func GetAllCards(u int, errCode *[]structs.TypeError) (rows []structDb.Cards) {
 	rows, err := DBCards.GetAllCards(u)
 	if err != nil {
@@ -118,14 +118,14 @@ func GetAllCards(u int, errCode *[]structs.TypeError) (rows []structDb.Cards) {
 }
 
 func getUserID(
-	reqCreateUser structAPI.ReqCreateCards,
+	un string,
 	errCode *[]structs.TypeError,
 ) (userID int) {
 	var (
 		row  structDb.User
 		err2 error
 	)
-	row, err2 = DBUser.GetUserByUserName(reqCreateUser.UserName)
+	row, err2 = DBUser.GetUserByUserName(un)
 
 	if err2 != nil {
 		structs.ErrorCode.DatabaseError.String(errCode, err2.Error())

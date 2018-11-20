@@ -10,14 +10,22 @@ type (
 
 	// ReqInquiryCards ...
 	ReqInquiryCards struct {
-		CardNumber string `json:"card_number" example:"123456789012345"`
-		UserName   string `json:"user_name"`
+		CardNumber []string `json:"card_number" example:"123456789012345"`
+		UserName   string   `json:"user_name"`
 	}
 
 	// ResInquiryCards ...
 	ResInquiryCards struct {
-		UserName string  `json:"user_name"`
-		Cards    []Cards `json:"cards"`
+		UserName string          `json:"user_name"`
+		Cards    []CardsResponse `json:"cards"`
+	}
+
+	//CardsResponse ...
+	CardsResponse struct {
+		CardNumber int    `json:"card_number"`
+		Name       string `json:"name"`
+		ExpiryDate string `json:"expiry_date"`
+		Company    string `json:"company"`
 	}
 
 	//ReqCreateCards Struct for insert new card request

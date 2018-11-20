@@ -44,11 +44,11 @@ func Router() {
 					&ctrl.CardsController{},
 				),
 			),
-			beego.NSNamespace("/cards/:card_number",
-				beego.NSInclude(
-					&ctrl.CardsController{},
-				),
-			),
+			// beego.NSNamespace("/cards/:card_number",
+			// 	beego.NSInclude(
+			// 		&ctrl.CardsController{},
+			// 	),
+			// ),
 		),
 
 		// User Section

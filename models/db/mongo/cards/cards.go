@@ -41,7 +41,7 @@ func (d *Cards) Index() (err error) {
 	}
 
 	index := mgo.Index{
-		Key:        []string{"card_number", "user_name"},
+		Key:        []string{"card_number", "user_id"},
 		Unique:     true,
 		DropDups:   false,
 		Background: false,
@@ -65,13 +65,25 @@ func (d *Cards) InsertCards(v interface{}) (err error) {
 }
 
 // GetCardByCardNumber ...
-func (d *Cards) GetCardByCardNumber(cardNumber int) (rows []structDb.Cards, err error) {
+func (d *Cards) GetCardByCardNumber(cardNumber int, u int) (rows []structDb.Cards, err error) {
 	sess, coll, err := d.GetColl()
 	defer sess.Close()
 	if err != nil {
 		return
 	}
-	err = coll.Find(bson.M{"card_number": cardNumber}).All(&rows)
+	err = coll.Find(bson.M{"card_number": cardNumber, "user_id": u}).All(&rows)
+
+	return
+}
+
+// GetAllCards ...
+func (d *Cards) GetAllCards(userID int) (rows []structDb.Cards, err error) {
+	sess, coll, err := d.GetColl()
+	defer sess.Close()
+	if err != nil {
+		return
+	}
+	err = coll.Find(bson.M{"user_id": userID}).All(&rows)
 
 	return
 }
