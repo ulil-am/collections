@@ -1,7 +1,6 @@
 package counter
 
 import (
-	"collections/helper/constant"
 	"collections/helper/constant/tablename"
 	db "collections/models/db/mongo"
 	structDb "collections/structs/db"
@@ -14,43 +13,7 @@ import (
 // Counter ...
 type Counter struct{}
 
-func init() {
-	var d Counter
-	d.Index()
-}
-
-// GetColl ...
-func (d *Counter) GetColl() (sess *mgo.Session, coll *mgo.Collection, err error) {
-	sess, err = db.Connect()
-	if err != nil {
-		beego.Warning("Error get collection Counter", err)
-		return
-	}
-
-	coll = sess.DB(constant.GOAPP).C(tablename.User)
-
-	return
-}
-
-// Index ...
-func (d *Counter) Index() (err error) {
-	sess, coll, err := db.GetColl(tablename.CounterUser)
-	defer sess.Close()
-	if err != nil {
-		return
-	}
-
-	index := mgo.Index{
-		Key:        []string{"user_counter"},
-		Unique:     true,
-		DropDups:   false,
-		Background: false,
-		Sparse:     false,
-	}
-
-	err = coll.EnsureIndex(index)
-	return
-}
+func init() {}
 
 // EXCLUSIVE DB OPERATIONS ===========================
 
@@ -70,7 +33,7 @@ func (d *Counter) GetInc(row structDb.CounterUser) (
 		ReturnNew: true,
 	}
 
-	_, err = coll.Find(bson.M{"user_counter": row.UserCounter}).Apply(change, &row)
+	_, err = coll.Find(bson.M{"_id": row.UserCounter}).Apply(change, &row)
 	counter = row.Counter
 	// beego.Debug("info after inc", info)
 	beego.Debug("counter after inc", counter)

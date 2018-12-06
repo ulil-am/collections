@@ -30,11 +30,11 @@ func CreateUser(
 
 	// Check duplicate user ID
 
-	err2 := checkDuplicateUserName(reqCreateUser, errCode)
-	if err2 != nil {
-		structs.ErrorCode.UserNameAlreadyExist.String(errCode)
-		return
-	}
+	// err2 := checkDuplicateUserName(reqCreateUser, errCode)
+	// if err2 != nil {
+	// 	structs.ErrorCode.UserNameAlreadyExist.String(errCode)
+	// 	return
+	// }
 	counter := getInc(reqCreateUser, errCode)
 
 	beego.Debug("errAftergetInc =======>>>>>>", errCode)

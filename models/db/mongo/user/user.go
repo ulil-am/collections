@@ -7,7 +7,6 @@ import (
 
 	structDb "collections/structs/db"
 
-	"github.com/astaxie/beego"
 	"github.com/globalsign/mgo"
 	"github.com/globalsign/mgo/bson"
 )
@@ -16,21 +15,10 @@ import (
 type User struct{}
 
 func init() {
-	var d User
-	d.Index()
-}
-
-// GetColl ...
-func (d *User) GetColl() (sess *mgo.Session, coll *mgo.Collection, err error) {
-	sess, err = db.Connect()
-	if err != nil {
-		beego.Warning("Error get collection User", err)
-		return
+	if constant.GOENV != constant.DEVCI {
+		var d User
+		d.Index()
 	}
-
-	coll = sess.DB(constant.GOAPP).C(tablename.User)
-
-	return
 }
 
 // Index ...
@@ -42,7 +30,7 @@ func (d *User) Index() (err error) {
 	}
 
 	index := mgo.Index{
-		Key:        []string{"user_id", "user_name"},
+		Key:        []string{"user_name"},
 		Unique:     true,
 		DropDups:   false,
 		Background: false,
@@ -50,12 +38,22 @@ func (d *User) Index() (err error) {
 	}
 
 	err = coll.EnsureIndex(index)
+
+	index2 := mgo.Index{
+		Key:        []string{"user_id"},
+		Unique:     true,
+		DropDups:   false,
+		Background: false,
+		Sparse:     false,
+	}
+
+	err = coll.EnsureIndex(index2)
 	return
 }
 
 // CreateUser ...
 func (d *User) CreateUser(v interface{}) (err error) {
-	sess, coll, err := d.GetColl()
+	sess, coll, err := db.GetColl(tablename.User)
 	defer sess.Close()
 	if err != nil {
 		return
@@ -67,7 +65,7 @@ func (d *User) CreateUser(v interface{}) (err error) {
 
 // GetUserByUserName ...
 func (d *User) GetUserByUserName(u string) (rows structDb.User, err error) {
-	sess, coll, err := d.GetColl()
+	sess, coll, err := db.GetColl(tablename.User)
 	defer sess.Close()
 	if err != nil {
 		return

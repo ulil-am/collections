@@ -70,6 +70,9 @@ func GetCardInfo(
 		if len(*errCode) != 0 {
 			return
 		}
+		if len(rows) == 0 {
+			structs.ErrorCode.CardNotExist.String(errCode, "Get All Cards", logicName)
+		}
 	} else {
 		cardNumber, errConv := strconv.Atoi(reqInquiryCards.CardNumber[0])
 		if errConv != nil {
@@ -88,10 +91,6 @@ func GetCardInfo(
 		}
 	}
 
-	// if cardNumber == 0 {
-	// 	structs.ErrorCode.CardNumberZero.String(errCode, nmFunc)
-	// 	return
-	// }
 	resInquiryCards.UserName = reqInquiryCards.UserName
 	for _, val := range rows {
 		cards := structAPI.CardsResponse{
